@@ -1,0 +1,85 @@
+# VitaShell language file
+# ver1.2対応版日本語ファイル
+# 作成途中
+
+# General strings
+ERROR                                = "Error 0x%08X."
+OK                                   = "OK"
+YES                                  = "Yes"
+NO                                   = "No"
+CANCEL                               = "キャンセル"
+FOLDER                               = "フォルダ"
+
+# Progress strings
+MOVING                               = "移動中..."
+COPYING                              = "コピー中..."
+DELETING                             = "削除中..."
+EXPORTING                            = "エクスポート中..."
+INSTALLING                           = "インストール中..."
+DOWNLOADING                          = "ダウンロード中..."
+EXTRACTING                           = "吸い出し中..."
+HASHING                              = "Hashing..."
+
+# Audio player strings
+TITLE                                = "タイトル"
+ALBUM                                = "アルバム"
+ARTIST                               = "アーティスト"
+GENRE                                = "ジャンル"
+YEAR                                 = "年"
+
+# Hex editor strings
+OFFSET                               = "オフセット"
+OPEN_HEX_EDITOR                      = "バイナリエディタを開く"
+
+# Text editor strings
+EDIT_LINE                            = "行編集"
+ENTER_SEARCH_TERM                    = "検索用語を入力"
+CUT                                  = "切り取り"
+INSERT_EMPTY_LINE                    = "空行を挿入"
+
+# File browser context menu strings
+MORE                                 = "More"
+MARK_ALL                             = "全選択"
+UNMARK_ALL                           = "全選択の解除"
+MOVE                                 = "移動"
+COPY                                 = "コピー"
+PASTE                                = "貼り付け"
+DELETE                               = "削除"
+RENAME                               = "リネーム"
+NEW_FOLDER                           = "新しいフォルダ"
+INSTALL_ALL                          = "全てをインストール"
+CALCULATE_SHA1                       = "SHA1の表示"
+EXPORT_MEDIA                         = "メディアをエクスポート"
+SEARCH                               = "検索"
+
+# File browser strings
+COPIED_FILE                          = "%dのファイルをコピーしました."
+COPIED_FOLDER                        = "%dのフォルダをコピーしました"
+COPIED_FILES_FOLDERS                 = "%dのファイル/フォルダをコピーしました"
+
+# Dialog questions
+DELETE_FILE_QUESTION                 = "このファイルを削除してもよろしいですか?"
+DELETE_FOLDER_QUESTION               = "このフォルダを削除してもよろしいですか?"
+DELETE_FILES_FOLDERS_QUESTION        = "これらのファイル、フォルダを削除してもよろしいですか?"
+EXPORT_FILE_QUESTION                 = "このファイルをメディアにエクスポートしてもよろしいですか?"
+EXPORT_FOLDER_QUESTION               = "このフォルダをメディアにエクスポートしてもよろしいですか?"
+EXPORT_FILES_FOLDERS_QUESTION        = "これらのファイル、フォルダをメディアにエクスポートしてもよろしいですか?"
+EXPORT_NO_MEDIA                      = "エクスポートが出来るメディアがありません"
+EXPORT_SONGS_INFO                    = "Exported %d song(s)."
+EXPORT_PICTURES_INFO                 = "Exported %d picture(s)."
+EXPORT_SONGS_PICTURES_INFO           = "Exported %d song(s) and %d picture(s)."
+INSTALL_ALL_QUESTION                 = "Do you want to install all packages available in this folder?"
+INSTALL_QUESTION                     = "Do you want to install this package?"
+INSTALL_WARNING                      = "This package requests extended permissions.\It will have access to your personal information.\If you did not obtain it from a trusted source,\please proceed at your own caution.\\Would you like to continue the install?"
+HASH_FILE_QUESTION                   = "SHA1 hashing may take a long time. Continue?"
+
+# Others
+PLEASE_WAIT                          = "Please wait..."
+SAVE_MODIFICATIONS                   = "Do you want to save your modifications?"
+NO_SPACE_ERROR                       = "There is not enough free space on the memory\card.\At least %s more space is needed."
+WIFI_ERROR                           = "You must use Wi-Fi to do this."
+FTP_SERVER                           = "FTP server is now running at\ftp://%s:%i\\Press 'OK' to keep it in background.\Press 'Cancel' to disconnect."
+SYS_INFO                             = "System software: %s\Model: 0x%08X\MAC address: %s\IP address: %s\Memory card: %s/%s\Battery level: %d%%"
+UPDATE_QUESTION                      = "VitaShell %s is now available.\\Do you want to update the application?"
+TOOLBOX                              = "Toolbox"
+SYSINFO_TITLE                        = "System Information"
