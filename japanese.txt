@@ -1,8 +1,8 @@
 # VitaShell language file
-# ver1.2対応版日本語ファイル
+# ver1.2対応版日本語ファイル a3
 
 # General strings
-ERROR 		= "Error 0x%08X."
+ERROR 		= "エラーコード:0x%08X."
 OK 		= "OK"
 YES 		= "Yes"
 NO 		= "No"
@@ -37,7 +37,7 @@ CUT 			= "切り取り"
 INSERT_EMPTY_LINE 	= "空行を挿入"
 
 # File browser context menu strings
-MORE 			= "More"
+MORE 			= "その他"
 MARK_ALL 		= "全選択"
 UNMARK_ALL 		= "全選択の解除"
 MOVE 			= "移動"
@@ -77,7 +77,7 @@ PLEASE_WAIT 		= "しばらくお待ち下さい..."
 SAVE_MODIFICATIONS = "この変更を保存しますか?"
 NO_SPACE_ERROR 	= "メモリーカードに充分な空き容量がありません。\あと%sの容量が必要です"
 WIFI_ERROR 		= "Wi-Fiを有効にする必要があります"
-FTP_SERVER 		= "FTP serverを動作させます。\ftp://%s:%i\\'OK'を選択するとバックグラウンドで動作します。\'キャンセル'を選択すると接続を解除します."
+FTP_SERVER 		= "FTPサーバーを動作させます。\ftp://%s:%i\\'OK'を選択するとバックグラウンドで動作します。\'キャンセル'を選択すると接続を解除します."
 SYS_INFO 		= "システムソフトウェア: %s\モデル: 0x%08X\MACアドレス: %s\IPアドレス: %s\メモリーカード: %s/%s\バッテリー容量: %d%%"
 UPDATE_QUESTION 	= "VitaShellの%s更新が利用出来ます。.\\VitaShellの更新をしますか?"
 TOOLBOX 		= "ツールボックス"
