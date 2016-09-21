@@ -1,5 +1,5 @@
 # VitaShell language file
-# ver1.2対応版日本語ファイル a3
+# ver1.2対応版日本語ファイル b4
 
 # General strings
 ERROR 		= "エラーコード:0x%08X"
@@ -52,9 +52,9 @@ EXPORT_MEDIA 	= "メディアをエクスポート"
 SEARCH		 = "検索"
 
 # File browser strings
-COPIED_FILE 			= "%dのファイルをコピーしました."
-COPIED_FOLDER 		= "%dのフォルダをコピーしました"
-COPIED_FILES_FOLDERS 	= "%dのファイル/フォルダをコピーしました"
+COPIED_FILE 			= "%d個のファイルをコピーしました."
+COPIED_FOLDER 		= "%d個のフォルダをコピーしました"
+COPIED_FILES_FOLDERS 	= "%d個のファイル/フォルダをコピーしました"
 
 # Dialog questions
 DELETE_FILE_QUESTION 		= "このファイルを削除してもよろしいですか?"
@@ -64,21 +64,21 @@ EXPORT_FILE_QUESTION 		= "このファイルをメディアにエクスポート
 EXPORT_FOLDER_QUESTION 		= "このフォルダをメディアにエクスポートしてもよろしいですか?"
 EXPORT_FILES_FOLDERS_QUESTION  	= "これらのファイル、フォルダをメディアにエクスポートしてもよろしいですか?"
 EXPORT_NO_MEDIA 			= "エクスポートが出来るメディアがありません"
-EXPORT_SONGS_INFO 			= "%dの歌をエクスポートしました"
-EXPORT_PICTURES_INFO 		= "%dの写真をエクスポートしました"
-EXPORT_SONGS_PICTURES_INFO 	= "%dの歌と%d写真をエクスポートしました"
+EXPORT_SONGS_INFO 			= "%d個の歌をエクスポートしました"
+EXPORT_PICTURES_INFO 		= "%d個の写真をエクスポートしました"
+EXPORT_SONGS_PICTURES_INFO 	= "%d個の歌と%d個の写真をエクスポートしました"
 INSTALL_ALL_QUESTION 		= "このフォルダの中にある、全てのパッケージをインストールしますか?"
 INSTALL_QUESTION 			= "このパッケージをインストールしますか?"
-INSTALL_WARNING 			= "このパッケージは拡張パーティションへのアクセス権や個人情報へのアクセス権を要求します。\信頼できるソース以外から入手した場合、インストールは自己判断で行ってください。\\インストールを続行してもよろしいですか?"
-HASH_FILE_QUESTION 		= "SHA1ハッシュの計算には時間がかかる場合があります。続けますか?"
+INSTALL_WARNING 			= "このパッケージは拡張パーティションへのアクセス権や個人情報へのアクセス権を要求します\信頼できるソース以外から入手した場合、インストールは自己判断で行ってください\\インストールを続行してもよろしいですか?"
+HASH_FILE_QUESTION 		= "SHA1ハッシュの計算には時間がかかる場合があります\続けますか?"
 
 # Others
 PLEASE_WAIT 		= "しばらくお待ち下さい..."
-SAVE_MODIFICATIONS = "この変更を保存しますか?"
-NO_SPACE_ERROR 	= "メモリーカードに充分な空き容量がありません。\あと%sの容量が必要です"
+SAVE_MODIFICATIONS = "変更を保存しますか?"
+NO_SPACE_ERROR 	= "メモリーカードに充分な空き容量がありません\あと%s以上の空き容量が必要です"
 WIFI_ERROR 		= "Wi-Fiを有効にする必要があります"
-FTP_SERVER 		= "FTPサーバーを動作させます。\ftp://%s:%i\\'OK'を選択するとバックグラウンドで動作します。\'キャンセル'を選択すると接続を解除します."
+FTP_SERVER 		= "FTPサーバーを動作させます\ftp://%s:%i\\'OK'を選択するとバックグラウンドで動作します\'キャンセル'を選択すると接続を解除します"
 SYS_INFO 		= "システムソフトウェア: %s\モデル: 0x%08X\MACアドレス: %s\IPアドレス: %s\メモリーカード: %s/%s\バッテリー容量: %d%%"
-UPDATE_QUESTION 	= "VitaShellの%s更新が利用出来ます。.\\VitaShellの更新をしますか?"
+UPDATE_QUESTION 	= "VitaShellの%s更新が利用出来ます\\VitaShellの更新をしますか?"
 TOOLBOX 		= "ツールボックス"
 SYSINFO_TITLE 	= "システムインフォメーション"
