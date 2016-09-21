@@ -2,7 +2,7 @@
 # ver1.2対応版日本語ファイル a3
 
 # General strings
-ERROR 		= "エラーコード:0x%08X."
+ERROR 		= "エラーコード:0x%08X"
 OK 		= "OK"
 YES 		= "Yes"
 NO 		= "No"
