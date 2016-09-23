@@ -1,7 +1,8 @@
 # VitaShell language file
-# ver1.2対応版日本語ファイル 12b7
+# ver1.2対応版日本語ファイル 12a8
 
 # General strings
+# 一般的な文字列
 ERROR				= "エラーコード:0x%08X"
 OK				= "OK"
 YES				= "Yes"
@@ -10,6 +11,7 @@ CANCEL				= "キャンセル"
 FOLDER				= "フォルダ"
 
 # Progress strings
+# 進捗の文字列
 MOVING				= "移動中..."
 COPYING				= "コピー中..."
 DELETING			= "削除中..."
@@ -20,6 +22,7 @@ EXTRACTING			= "吸い出し中..."
 HASHING				= "ハッシュ中..."
 
 # Audio player strings
+# オーディオプレイヤーの文字列
 TITLE				= "タイトル"
 ALBUM				= "アルバム"
 ARTIST				= "アーティスト"
@@ -27,16 +30,19 @@ GENRE				= "ジャンル"
 YEAR				= "年"
 
 # Hex editor strings
+# バイナリエディタの文字列
 OFFSET				= "オフセット"
 OPEN_HEX_EDITOR			= "バイナリエディタを開く"
 
 # Text editor strings
+# テキストエディタの文字列
 EDIT_LINE			= "行編集"
 ENTER_SEARCH_TERM		= "検索用語を入力"
 CUT				= "切り取り"
 INSERT_EMPTY_LINE		= "空行を挿入"
 
 # File browser context menu strings
+# ファイルブラウザーのコンテキストメニューの文字列
 MORE				= "その他"
 MARK_ALL			= "全選択"
 UNMARK_ALL			= "全選択の解除"
@@ -52,11 +58,13 @@ EXPORT_MEDIA			= "メディアをエクスポート"
 SEARCH				= "検索"
 
 # File browser strings
+# ブラウザーの文字列
 COPIED_FILE			= "%d個のファイルをコピーしました."
 COPIED_FOLDER			= "%d個のフォルダをコピーしました"
 COPIED_FILES_FOLDERS		= "%d個のファイル/フォルダをコピーしました"
 
 # Dialog questions
+# ダイアログの質問
 DELETE_FILE_QUESTION		= "このファイルを削除してもよろしいですか?"
 DELETE_FOLDER_QUESTION		= "このフォルダを削除してもよろしいですか?"
 DELETE_FILES_FOLDERS_QUESTION	= "これらのファイル、フォルダを削除してもよろしいですか?"
@@ -73,6 +81,7 @@ INSTALL_WARNING			= "このパッケージは拡張パーティションへの�
 HASH_FILE_QUESTION		= "SHA1ハッシュの計算には時間がかかる場合があります\続けますか?"
 
 # Others
+# 他
 PLEASE_WAIT			= "しばらくお待ち下さい..."
 SAVE_MODIFICATIONS		= "変更を保存しますか?"
 NO_SPACE_ERROR			= "メモリーカードに充分な空き容量がありません\あと%s以上の空き容量が必要です"
