@@ -1,5 +1,5 @@
 # VitaShell language file
-# ver1.2対応版日本語ファイル a6
+# ver1.2対応版日本語ファイル 12b7
 
 # General strings
 ERROR				= "エラーコード:0x%08X"
