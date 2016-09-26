@@ -1,4 +1,4 @@
-﻿# VitaShell language file 1.2
+# VitaShell language file 1.2
 
 # General strings
 ERROR				= "Error 0x%08X."
