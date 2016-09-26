@@ -1,5 +1,5 @@
-# VitaShell language file
-# ver1.2対応日本語言語ファイル 12b10
+﻿# VitaShell language file
+# ver1.2対応日本語言語ファイル 12a11
 
 # General strings
 # 一般的な文字列
