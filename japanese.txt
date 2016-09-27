@@ -1,5 +1,5 @@
 # VitaShell language file
-# ver1.2対応日本語言語ファイル 12a11
+# ver1.2対応日本語言語ファイル 12a12
 
 # General strings
 # 一般的な文字列
@@ -59,7 +59,7 @@ SEARCH				= "検索"
 
 # File browser strings
 # ブラウザーの文字列
-COPIED_FILE			= "%d個のファイルをコピーしました."
+COPIED_FILE			= "%d個のファイルをコピーしました"
 COPIED_FOLDER			= "%d個のフォルダをコピーしました"
 COPIED_FILES_FOLDERS		= "%d個のファイル/フォルダをコピーしました"
 
