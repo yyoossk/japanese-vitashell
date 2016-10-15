@@ -1,5 +1,5 @@
 # VitaShell language file
-# ver1.31対応日本語言語ファイル 131a15
+# ver1.31対応日本語言語ファイル 131a16
 
 # General strings
 # 一般的な文字列
@@ -55,7 +55,7 @@ RENAME				= "リネーム"
 NEW_FOLDER			= "新しいフォルダ"
 COMPRESS			= "圧縮"
 INSTALL_ALL			= "全てをインストール"
-INSTALL_FOLDER                       = "Install folder"
+INSTALL_FOLDER		= "フォルダをインストール"
 CALCULATE_SHA1			= "SHA1の表示"
 EXPORT_MEDIA			= "メディアをエクスポート"
 SEARCH				= "検索"
