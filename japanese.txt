@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.31対応版日本語言語ファイル 131a21 作者@Umineko19930417
+# VitaShell1.31対応版日本語言語ファイル 131a22 作者@Umineko19930417
 
 # General strings
 # 一般的な文字列
@@ -20,7 +20,7 @@ INSTALLING			= "インストール中..."
 DOWNLOADING			= "ダウンロード中..."
 EXTRACTING			= "吸い出し中..."
 COMPRESSING			= "圧縮中..."
-HASHING				= "ハッシュ値計算中..."
+HASHING				= "SHA-1ハッシュ値の計算中..."
 
 # Audio player strings
 # オーディオプレイヤーの文字列
@@ -51,12 +51,12 @@ MOVE				= "移動"
 COPY				= "コピー"
 PASTE				= "貼り付け"
 DELETE				= "削除"
-RENAME				= "リネーム"
+RENAME				= "名前変更"
 NEW_FOLDER			= "新しいフォルダ"
 COMPRESS			= "圧縮"
 INSTALL_ALL			= "全てをインストール"
 INSTALL_FOLDER		= "フォルダをインストール"
-CALCULATE_SHA1			= "SHA1の表示"
+CALCULATE_SHA1			= "SHA-1ハッシュ値の表示"
 EXPORT_MEDIA			= "メディアを出力"
 SEARCH				= "検索"
 
@@ -79,10 +79,10 @@ EXPORT_SONGS_INFO		= "%d個の歌を出力しました"
 EXPORT_PICTURES_INFO		= "%d個の写真を出力しました"
 EXPORT_SONGS_PICTURES_INFO	= "%d個の歌と%d個の写真を出力しました"
 INSTALL_ALL_QUESTION		= "このフォルダの中にある、全てのパッケージをインストールしますか?"
-INSTALL_FOLDER_QUESTION		= "このフォルダをインストールしますか?\警告:\インストール後にフォルダを削除します!"
+INSTALL_FOLDER_QUESTION		= "このフォルダをインストールしますか?\\警告:\インストール後にフォルダを削除します!"
 INSTALL_QUESTION		= "このパッケージをインストールしますか?"
 INSTALL_WARNING			= "このパッケージは拡張パーティションへのアクセス権や個人情報へのアクセス権を要求します\信頼できるソース以外から入手した場合のインストールは自己判断で行って下さい\\インストールを続行してもよろしいですか?"
-HASH_FILE_QUESTION		= "SHA1ハッシュ値の計算には時間がかかる場合があります\続けますか?"
+HASH_FILE_QUESTION		= "SHA-1ハッシュ値の計算には時間がかかる場合があります\続けますか?"
 
 # Others
 # 他
@@ -92,6 +92,6 @@ NO_SPACE_ERROR			= "メモリーカードに充分な空き容量がありませ
 WIFI_ERROR			= "Wi-Fiを有効にする必要があります"
 FTP_SERVER			= "FTPサーバーを動作させます\ftp://%s:%i\\'OK'を選択するとバックグラウンドで動作します\'キャンセル'を選択すると接続を解除します"
 SYS_INFO			= "システムソフトウェア: %s\モデル: 0x%08X\MACアドレス: %s\IPアドレス: %s\メモリーカード: %s/%s\バッテリー容量: %d%%"
-UPDATE_QUESTION			= "VitaShellの%s更新が利用出来ます\\VitaShellの更新をしますか?"
+UPDATE_QUESTION			= "VitaShell %sの更新が利用出来ます\\VitaShellの更新をしますか?"
 TOOLBOX				= "ツールボックス"
 SYSINFO_TITLE			= "システムインフォメーション"
