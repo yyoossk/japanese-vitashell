@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.31対応版日本語言語ファイル 131a35
+# VitaShell1.31対応版日本語言語ファイル 131b37
 # 作者 @Umineko19930417
 
 # General strings
@@ -83,7 +83,7 @@ INSTALL_ALL_QUESTION		 = "このフォルダの中にある、全てのパッケ
 INSTALL_FOLDER_QUESTION		    = "このフォルダをインストールしますか?\\警告:\インストール後にフォルダを削除します!"
 INSTALL_QUESTION		    = "このパッケージをインストールしますか?"
 INSTALL_WARNING			    = "このパッケージは拡張パーティションへのアクセス権や個人情報へのアクセス権を要求します\ 信頼できるソース以外から入手した場合のインストールは自己判断で行って下さい\\ インストールを続行してもよろしいですか?"
-HASH_FILE_QUESTION		= "SHA-1ハッシュ値の計算には時間がかかる場合があります\続けますか?"
+HASH_FILE_QUESTION		= "SHA-1ハッシュ値の計算には時間がかかる場合があります\続行しますか?"
 
 # Others
 # 他
