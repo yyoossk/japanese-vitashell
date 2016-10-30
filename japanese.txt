@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.4対応版日本語言語ファイル 14b95
+# VitaShell1.4対応版日本語言語ファイル 14b97
 # 作者 @Umineko19930417
 
 # General strings
@@ -21,7 +21,7 @@ INSTALLING			= "インストール中..."
 DOWNLOADING			= "ダウンロード中..."
 EXTRACTING			= "吸い出し中..."
 COMPRESSING			= "圧縮中..."
-HASHING				= "SHA-1ハッシュ値の計算中..."
+HASHING				= "SHA-1ハッシュ値を計算中..."
 
 # Audio player strings
 # オーディオプレイヤーの文字列
@@ -57,7 +57,7 @@ NEW_FOLDER			= "新しいフォルダ"
 COMPRESS			= "圧縮"
 INSTALL_ALL			= "全てをインストール"
 INSTALL_FOLDER		= "フォルダをインストール"
-CALCULATE_SHA1			= "SHA-1ハッシュ値の表示"
+CALCULATE_SHA1			= "SHA-1ハッシュ値を表示"
 EXPORT_MEDIA			= "メディアを出力"
 SEARCH				= "検索"
 
@@ -71,10 +71,10 @@ COPIED_FILES_FOLDERS		 = "%d個のファイル/フォルダをコピーしまし
 # ダイアログの質問
 DELETE_FILE_QUESTION		= "このファイルを削除してもよろしいですか?"
 DELETE_FOLDER_QUESTION		  = "このフォルダを削除してもよろしいですか?"
-DELETE_FILES_FOLDERS_QUESTION	  = "これらのファイル、フォルダを削除してもよろしいですか?"
+DELETE_FILES_FOLDERS_QUESTION	  = "これらのファイル/フォルダを削除してもよろしいですか?"
 EXPORT_FILE_QUESTION		= "このファイルをメディアに出力してもよろしいですか?"
 EXPORT_FOLDER_QUESTION		 = "このフォルダをメディアに出力してもよろしいですか?"
-EXPORT_FILES_FOLDERS_QUESTION	  = "これらのファイル、フォルダをメディアに出力してもよろしいですか?"
+EXPORT_FILES_FOLDERS_QUESTION	  = "これらのファイル/フォルダをメディアに出力してもよろしいですか?"
 EXPORT_NO_MEDIA			= "出力が出来るメディアがありません"
 EXPORT_SONGS_INFO		= "%d個の歌を出力しました"
 EXPORT_PICTURES_INFO		= "%d個の写真を出力しました"
