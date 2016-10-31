@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.41対応版日本語言語ファイル 141a101
+# VitaShell1.41対応版日本語言語ファイル 141a102
 # 作者 @Umineko19930417
 
 # General strings
@@ -72,8 +72,8 @@ PROPERTY_SIZE			= "容量"
 PROPERTY_COMPRESSED_SIZE           	 = "圧縮容量"
 PROPERTY_CONTAINS			= "内容物	"
 PROPERTY_CONTAINS_FILES_FOLDERS			= "%d ファイル / %d フォルダ"
-PROPERTY_CREATION_DATE			= "データ作成日時"
-PROPERTY_MODFICATION_DATE			= "データ更新日時"
+PROPERTY_CREATION_DATE			= "作成日時"
+PROPERTY_MODFICATION_DATE			= "更新日時"
 PROPERTY_TYPE_BMP			= "Bitmap画像"
 PROPERTY_TYPE_INI			= "ファイル構成"
 PROPERTY_TYPE_JPEG			= "JPEG画像"
