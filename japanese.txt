@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.41対応版日本語言語ファイル 141a98
+# VitaShell1.41対応版日本語言語ファイル 141a101
 # 作者 @Umineko19930417
 
 # General strings
@@ -45,7 +45,7 @@ CUT				= "切り取り"
 INSERT_EMPTY_LINE		= "空行を挿入"
 
 # File browser context menu strings
-# ファイルブラウザーのコンテキストメニューの文字列
+# ファイルブラウザーコンテキストメニューの文字列
 MORE				= "その他"
 MARK_ALL			= "全選択"
 UNMARK_ALL			= "全選択の解除"
@@ -70,10 +70,10 @@ PROPERTY_TYPE			= "種類"
 PROPERTY_FSELF_MODE			= "FSELFモード"
 PROPERTY_SIZE			= "容量"
 PROPERTY_COMPRESSED_SIZE           	 = "圧縮容量"
-PROPERTY_CONTAINS			= "含む"
-PROPERTY_CONTAINS_FILES_FOLDERS			= "%d ファイル/ %d フォルダ"
-PROPERTY_CREATION_DATE			= "データ作成"
-PROPERTY_MODFICATION_DATE			= "データ修正"
+PROPERTY_CONTAINS			= "内容物	"
+PROPERTY_CONTAINS_FILES_FOLDERS			= "%d ファイル / %d フォルダ"
+PROPERTY_CREATION_DATE			= "データ作成日時"
+PROPERTY_MODFICATION_DATE			= "データ更新日時"
 PROPERTY_TYPE_BMP			= "Bitmap画像"
 PROPERTY_TYPE_INI			= "ファイル構成"
 PROPERTY_TYPE_JPEG			= "JPEG画像"
@@ -91,7 +91,7 @@ PROPERTY_FSELF_MODE_UNSAFE			= "危険"
 PROPERTY_FSELF_MODE_SCE				= "SCEの署名済"
 
 # File browser strings
-# ブラウザーの文字列
+# ファイルブラウザーの文字列
 COPIED_FILE			= "%d個のファイルをコピーしました"
 COPIED_FOLDER			= "%d個のフォルダをコピーしました"
 COPIED_FILES_FOLDERS		 = "%d個のファイル/フォルダをコピーしました"
@@ -116,7 +116,7 @@ INSTALL_BRICK_WARNING			   = "このパッケージは、システム領域等�
 HASH_FILE_QUESTION		= "SHA-1ハッシュ値の計算には時間がかかる場合があります\\ハッシュ値の計算を続行しますか?"
 
 # Others
-# 他
+# その他
 PLEASE_WAIT			= "しばらくお待ち下さい..."
 SAVE_MODIFICATIONS		= "変更を保存しますか?"
 NO_SPACE_ERROR			   = "メモリーカードに充分な空き容量がありません\あと%s以上の空き容量が必要です"
