@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.41対応版日本語言語ファイル 142a103
+# VitaShell1.41対応版日本語言語ファイル 142a110
 # 作者 @Umineko19930417
 
 # General strings
@@ -121,11 +121,11 @@ HASH_FILE_QUESTION		= "SHA-1ハッシュ値の計算には時間がかかる場�
 # 変革設定の文字列
 HENKAKU_SETTINGS			= "HENkaku設定"
 HENKAKU_ENABLE_PSN_SPOOFING			= "PSN偽装を有効"
-HENKAKU_ENABLE_UNSAFE_HOMEBREW			= "危険な自作アプリを有効"
+HENKAKU_ENABLE_UNSAFE_HOMEBREW			   = "危険な自作アプリを有効"
 HENKAKU_ENABLE_VERSION_SPOOFING			= "バージョン偽装を有効"
 HENKAKU_SPOOFED_VERSION			= "バージョン偽装"
-HENKAKU_RESTORE_DEFAULT_SETTINGS			= "デフォルトの設定に戻す"
-HENKAKU_UNSAFE_HOMEBREW_MESSAGE			= "悪意が含まれていたり誤って設定されていた場合、\危険な自作アプリはあなたのデバイスを永久的に破壊する事が出来ます\\インストールをする時は注意して下さい"
+HENKAKU_RESTORE_DEFAULT_SETTINGS			  = "デフォルトの設定に戻す"
+HENKAKU_UNSAFE_HOMEBREW_MESSAGE			   = "悪意が含まれていたり誤って設定されていた場合、  \危険な自作アプリはあなたのデバイスを永久的に破壊する事が出来ます\  \インストールをする時は注意して下さい"
 
 # VitaShell settings
 # Vitashellの設定
