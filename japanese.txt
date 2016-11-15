@@ -1,6 +1,7 @@
 # VitaShell language file
-# VitaShell1.41対応版日本語言語ファイル 142a110
+# VitaShell1.41対応版日本語言語ファイル 142b111
 # 作者 @Umineko19930417
+# お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
 # General strings
 # 一般的な文字列
@@ -9,8 +10,8 @@ OK				= "OK"
 YES				= "はい"
 NO				= "いいえ"
 CANCEL				= "キャンセル"
-ON			= "オン"
-OFF			= "オフ"
+ON				= "オン"
+OFF				= "オフ"
 FILE_				= "ファイル"
 FOLDER				= "フォルダ"
 
@@ -69,13 +70,13 @@ SEARCH				= "検索"
 # ファイルブラウザプロパティの文字列
 PROPERTY_NAME			= "名前"
 PROPERTY_TYPE			= "種類"
-PROPERTY_FSELF_MODE			= "FSELFモード"
+PROPERTY_FSELF_MODE		= "FSELFモード"
 PROPERTY_SIZE			= "容量"
-PROPERTY_COMPRESSED_SIZE           	 = "圧縮容量"
+PROPERTY_COMPRESSED_SIZE	= "圧縮容量"
 PROPERTY_CONTAINS			= "内容物	"
-PROPERTY_CONTAINS_FILES_FOLDERS			= "%d ファイル / %d フォルダ"
-PROPERTY_CREATION_DATE			= "作成日時"
-PROPERTY_MODFICATION_DATE			= "更新日時"
+PROPERTY_CONTAINS_FILES_FOLDERS	= "%d ファイル / %d フォルダ"
+PROPERTY_CREATION_DATE		= "作成日時"
+PROPERTY_MODFICATION_DATE		= "更新日時"
 PROPERTY_TYPE_BMP			= "Bitmap画像"
 PROPERTY_TYPE_INI			= "ファイル構成"
 PROPERTY_TYPE_JPEG			= "JPEG画像"
@@ -88,9 +89,9 @@ PROPERTY_TYPE_VPK			= "VPKパッケージ"
 PROPERTY_TYPE_XML			= "XMLファイル"
 PROPERTY_TYPE_ZIP			= "ZIP圧縮ファイル"
 PROPERTY_TYPE_FSELF			= "FSELFファイル"
-PROPERTY_FSELF_MODE_SAFE			= "安全"
-PROPERTY_FSELF_MODE_UNSAFE			= "危険"
-PROPERTY_FSELF_MODE_SCE				= "SCEの署名済"
+PROPERTY_FSELF_MODE_SAFE		= "安全"
+PROPERTY_FSELF_MODE_UNSAFE		= "危険"
+PROPERTY_FSELF_MODE_SCE			= "SCEの署名済"
 
 # File browser strings
 # ファイルブラウザーの文字列
