@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.41対応版日本語言語ファイル 142b121
+# VitaShell1.42対応版日本語言語ファイル 142b122
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
