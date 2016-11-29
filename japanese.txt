@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.42対応版日本語言語ファイル 142b122
+# VitaShell1.43対応版日本語言語ファイル 143a123
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -126,6 +126,9 @@ HENKAKU_ENABLE_UNSAFE_HOMEBREW		   = "危険な自作アプリを有効"
 HENKAKU_ENABLE_VERSION_SPOOFING		= "バージョン偽装を有効"
 HENKAKU_SPOOFED_VERSION			= "バージョン偽装"
 HENKAKU_RESTORE_DEFAULT_SETTINGS	= "デフォルトの設定に戻す"
+HENKAKU_RELOAD_CONFIG		= "taiHENのconfig.txtの再読込"
+HENKAKU_RESTORE_DEFAULT_MESSAGE		= "デフォルトの設定が正常に復元されました"
+HENKAKU_RELOAD_CONFIG_MESSAGE		= "taiHENのconfig.txt が正常に再読込されました"
 HENKAKU_UNSAFE_HOMEBREW_MESSAGE		   = "悪意が含まれていたり誤って設定されていた場合、  \危険な自作アプリはあなたのデバイスを永久的に破壊する事が出来ます\  \インストールをする時は注意して下さい"
 
 # VitaShell settings
