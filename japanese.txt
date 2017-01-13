@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.43対応版日本語言語ファイル 143b127
+# VitaShell1.5対応版日本語言語ファイル 15a128
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -78,7 +78,7 @@ PROPERTY_CONTAINS_FILES_FOLDERS		= "%d ファイル / %d フォルダ"
 PROPERTY_CREATION_DATE			= "作成日時"
 PROPERTY_MODFICATION_DATE		= "更新日時"
 PROPERTY_TYPE_BMP			= "Bitmap画像"
-PROPERTY_TYPE_INI			= "ファイル構成"
+PROPERTY_TYPE_INI			= "設定ファイル"
 PROPERTY_TYPE_JPEG			= "JPEG画像"
 PROPERTY_TYPE_MP3			= "MP3音声ファイル"
 PROPERTY_TYPE_OGG			= "OGG音声ファイル"
@@ -122,7 +122,7 @@ HASH_FILE_QUESTION			= "SHA-1ハッシュ値の計算には時間がかかる場
 # 変革設定の文字列
 HENKAKU_SETTINGS			= "HENkaku設定"
 HENKAKU_ENABLE_PSN_SPOOFING		= "PSN偽装を有効"
-HENKAKU_ENABLE_UNSAFE_HOMEBREW		   = "危険な自作アプリを有効"
+HENKAKU_ENABLE_UNSAFE_HOMEBREW		   = "安全ではない自作アプリを有効"
 HENKAKU_ENABLE_VERSION_SPOOFING		= "バージョン偽装を有効"
 HENKAKU_SPOOFED_VERSION			= "バージョン偽装"
 HENKAKU_RESTORE_DEFAULT_SETTINGS	= "デフォルトの設定に戻す"
@@ -141,9 +141,19 @@ VITASHELL_SETTINGS_POWER		= "電源"
 VITASHELL_SETTINGS_REBOOT		= "再起動"
 VITASHELL_SETTINGS_POWEROFF		= "電源を切る"
 VITASHELL_SETTINGS_STANDBY		= "待機状態"
+VITASHELL_SETTINGS_SELECT_BUTTON_USB		= "USBモード"
+VITASHELL_SETTINGS_SELECT_BUTTON_FTP		= "FTPモード"
+
+# USB strings
+# USBの文字列
+USB_CONNECTED		= "USB を接続しました"
+USB_CONNECTION_PERMISSION		= "USB接続には、拡張アクセス権限が必要です\安全ではない自作アプリを有効にして下さい"
+USB_CONNECTION_NOT_AVAILABLE		= "このデバイスでは、USB接続を利用出来ません"
 
 # Others
 # その他
+SAFE_MODE                            = "安全モード"
+UNSAFE_MODE                          = "安全ではないモード"
 PLEASE_WAIT				= "しばらくお待ち下さい..."
 SAVE_MODIFICATIONS			= "変更を保存しますか?"
 NO_SPACE_ERROR				= "メモリーカードに充分な空き容量がありません\あと%s以上の空き容量が必要です"
