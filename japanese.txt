@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.5対応版日本語言語ファイル 15a131
+# VitaShell1.51対応版日本語言語ファイル 151a133
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -83,6 +83,7 @@ PROPERTY_TYPE_JPEG			= "JPEG画像"
 PROPERTY_TYPE_MP3			= "MP3音声ファイル"
 PROPERTY_TYPE_OGG			= "OGG音声ファイル"
 PROPERTY_TYPE_PNG			= "PNG画像"
+PROPERTY_TYPE_RAR			= "RAR圧縮ファイル"
 PROPERTY_TYPE_SFO			= "SFOファイル"
 PROPERTY_TYPE_TXT			= "テキスト文章"
 PROPERTY_TYPE_VPK			= "VPKパッケージ"
@@ -90,7 +91,7 @@ PROPERTY_TYPE_XML			= "XMLファイル"
 PROPERTY_TYPE_ZIP			= "ZIP圧縮ファイル"
 PROPERTY_TYPE_FSELF			= "FSELFファイル"
 PROPERTY_FSELF_MODE_SAFE		= "安全"
-PROPERTY_FSELF_MODE_UNSAFE		= "危険"
+PROPERTY_FSELF_MODE_UNSAFE		= "安全ではない"
 PROPERTY_FSELF_MODE_SCE			= "SCEの署名済"
 
 # File browser strings
@@ -146,13 +147,14 @@ VITASHELL_SETTINGS_SELECT_BUTTON_FTP	= "FTPモード"
 
 # USB strings
 # USBの文字列
-USB_CONNECTED				= "USB を接続しました"
+USB_CONNECTED				= "USBを接続しました"
+USB_NOT_CONNECTED			= "この機能はUSBケーブルを使用してPCと接続します"
 USB_CONNECTION_PERMISSION		= "USB接続には、拡張アクセス権限が必要です\安全ではない自作アプリを有効にして下さい"
 USB_CONNECTION_NOT_AVAILABLE		= "このデバイスでは、USB接続を利用出来ません"
 
 # Others
 # その他
-SAFE_MODE				= "安全モード"
+SAFE_MODE				= "安全なモード"
 UNSAFE_MODE				= "安全ではないモード"
 PLEASE_WAIT				= "しばらくお待ち下さい..."
 SAVE_MODIFICATIONS			= "変更を保存しますか?"
@@ -164,4 +166,4 @@ UPDATE_QUESTION				= "VitaShell %sの更新が利用出来ます\\VitaShellの�
 TOOLBOX					= "ツールボックス"
 SYSINFO_TITLE				= "システム情報"
 ARCHIVE_NAME				= "アーカイブ名"
-COMPRESSION_LEVEL			= "圧縮率 (0-9)"
+COMPRESSION_LEVEL			= "圧縮率(0-9)"
