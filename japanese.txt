@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.5対応版日本語言語ファイル 15a130
+# VitaShell1.5対応版日本語言語ファイル 15a131
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -153,7 +153,7 @@ USB_CONNECTION_NOT_AVAILABLE		= "このデバイスでは、USB接続を利用�
 # Others
 # その他
 SAFE_MODE				= "安全モード"
-UNSAFE_MODE					= "安全ではないモード"
+UNSAFE_MODE				= "安全ではないモード"
 PLEASE_WAIT				= "しばらくお待ち下さい..."
 SAVE_MODIFICATIONS			= "変更を保存しますか?"
 NO_SPACE_ERROR				= "メモリーカードに充分な空き容量がありません\あと%s以上の空き容量が必要です"
