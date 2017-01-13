@@ -1,4 +1,4 @@
-# VitaShell language file v1.43
+# VitaShell language file for 1.5
 
 # General strings
 ERROR                                = "Error 0x%08X."
@@ -62,7 +62,7 @@ PROPERTY_NAME                        = "Name"
 PROPERTY_TYPE                        = "Type"
 PROPERTY_FSELF_MODE                  = "FSELF mode"
 PROPERTY_SIZE                        = "Size"
-PROPERTY_COMPRESSED_SIZE           	 = "Compressed size"
+PROPERTY_COMPRESSED_SIZE             = "Compressed size"
 PROPERTY_CONTAINS                    = "Contains"
 PROPERTY_CONTAINS_FILES_FOLDERS      = "%d files, %d folders"
 PROPERTY_CREATION_DATE               = "Creation date"
@@ -122,13 +122,23 @@ HENKAKU_UNSAFE_HOMEBREW_MESSAGE      = "Unsafe homebrews can damage your device\
 VITASHELL_SETTINGS_MAIN              = "Main settings"
 VITASHELL_SETTINGS_LANGUAGE          = "Language"
 VITASHELL_SETTINGS_THEME             = "Theme"
+VITASHELL_SETTINGS_SELECT_BUTTON     = "SELECT button"
 VITASHELL_SETTINGS_NO_AUTO_UPDATE    = "Disable auto-update"
 VITASHELL_SETTINGS_POWER             = "Power"
 VITASHELL_SETTINGS_REBOOT            = "Reboot"
 VITASHELL_SETTINGS_POWEROFF          = "Power off"
 VITASHELL_SETTINGS_STANDBY           = "Standby"
+VITASHELL_SETTINGS_SELECT_BUTTON_USB = "USB"
+VITASHELL_SETTINGS_SELECT_BUTTON_FTP = "FTP"
+
+# USB strings
+USB_CONNECTED                        = "USB connected"
+USB_CONNECTION_PERMISSION            = "USB connection requires extended permission.\Please activate 'Enable unsafe homebrew' first."
+USB_CONNECTION_NOT_AVAILABLE         = "USB connection is not available on this device."
 
 # Others
+SAFE_MODE                            = "SAFE MODE"
+UNSAFE_MODE                          = "UNSAFE MODE"
 PLEASE_WAIT                          = "Please wait..."
 SAVE_MODIFICATIONS                   = "Do you want to save your modifications?"
 NO_SPACE_ERROR                       = "There is not enough free space on the memory\card.\At least %s more space is needed."
