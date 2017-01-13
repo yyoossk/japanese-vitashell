@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.51対応版日本語言語ファイル 151a133
+# VitaShell1.51対応版日本語言語ファイル 151a134
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -123,11 +123,11 @@ HASH_FILE_QUESTION			= "SHA-1ハッシュ値の計算には時間がかかる場
 # 変革設定の文字列
 HENKAKU_SETTINGS			= "HENkaku設定"
 HENKAKU_ENABLE_PSN_SPOOFING		= "PSN偽装を有効"
-HENKAKU_ENABLE_UNSAFE_HOMEBREW		   = "安全ではない自作アプリを有効"
+HENKAKU_ENABLE_UNSAFE_HOMEBREW		= "安全ではない自作アプリを有効"
 HENKAKU_ENABLE_VERSION_SPOOFING		= "バージョン偽装を有効"
 HENKAKU_SPOOFED_VERSION			= "バージョン偽装"
 HENKAKU_RESTORE_DEFAULT_SETTINGS	= "デフォルトの設定に戻す"
-HENKAKU_RELOAD_CONFIG			= "taiHENのconfig.txtの再読込"
+HENKAKU_RELOAD_CONFIG			 = "taiHENのconfig.txtの再読込"
 HENKAKU_RESTORE_DEFAULT_MESSAGE		= "デフォルトの設定が正常に復元されました"
 HENKAKU_RELOAD_CONFIG_MESSAGE		 = "taiHENのconfig.txtが正常に再読込されました"
 HENKAKU_UNSAFE_HOMEBREW_MESSAGE		   = "悪意が含まれていたり誤って設定されていた場合、  \危険な自作アプリはあなたのデバイスを永久的に破壊する事が出来ます\  \インストールをする時は注意して下さい"
@@ -137,6 +137,7 @@ HENKAKU_UNSAFE_HOMEBREW_MESSAGE		   = "悪意が含まれていたり誤って�
 VITASHELL_SETTINGS_MAIN			= "メインの設定"
 VITASHELL_SETTINGS_LANGUAG		= "言語"
 VITASHELL_SETTINGS_THEME		= "テーマ"
+VITASHELL_SETTINGS_SELECT_BUTTON	= "接続モードの選択"
 VITASHELL_SETTINGS_NO_AUTO_UPDATE	= "自動的な更新を無効"
 VITASHELL_SETTINGS_POWER		= "電源"
 VITASHELL_SETTINGS_REBOOT		= "再起動"
