@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.5対応版日本語言語ファイル 15a128
+# VitaShell1.5対応版日本語言語ファイル 15a129
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -141,19 +141,19 @@ VITASHELL_SETTINGS_POWER		= "電源"
 VITASHELL_SETTINGS_REBOOT		= "再起動"
 VITASHELL_SETTINGS_POWEROFF		= "電源を切る"
 VITASHELL_SETTINGS_STANDBY		= "待機状態"
-VITASHELL_SETTINGS_SELECT_BUTTON_USB		= "USBモード"
-VITASHELL_SETTINGS_SELECT_BUTTON_FTP		= "FTPモード"
+VITASHELL_SETTINGS_SELECT_BUTTON_USB	= "USBモード"
+VITASHELL_SETTINGS_SELECT_BUTTON_FTP	= "FTPモード"
 
 # USB strings
 # USBの文字列
-USB_CONNECTED		= "USB を接続しました"
+USB_CONNECTED				= "USB を接続しました"
 USB_CONNECTION_PERMISSION		= "USB接続には、拡張アクセス権限が必要です\安全ではない自作アプリを有効にして下さい"
 USB_CONNECTION_NOT_AVAILABLE		= "このデバイスでは、USB接続を利用出来ません"
 
 # Others
 # その他
-SAFE_MODE                            = "安全モード"
-UNSAFE_MODE                          = "安全ではないモード"
+SAFE_MODE			= "安全モード"
+UNSAFE_MODE		= "安全ではないモード"
 PLEASE_WAIT				= "しばらくお待ち下さい..."
 SAVE_MODIFICATIONS			= "変更を保存しますか?"
 NO_SPACE_ERROR				= "メモリーカードに充分な空き容量がありません\あと%s以上の空き容量が必要です"
