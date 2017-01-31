@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell1.51対応版日本語言語ファイル 151b138
+# VitaShell 1.51対応版日本語言語ファイル 151a139
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -145,6 +145,16 @@ VITASHELL_SETTINGS_POWEROFF		= "電源を切る"
 VITASHELL_SETTINGS_STANDBY		= "待機状態"
 VITASHELL_SETTINGS_SELECT_BUTTON_USB	= "USBモード"
 VITASHELL_SETTINGS_SELECT_BUTTON_FTP	= "FTPモード"
+VITASHELL_SETTINGS_DATABASE		= "データベースメニュー"
+VITASHELL_SETTINGS_DATABASE_UPDATE		= "データベースを更新します"
+VITASHELL_SETTINGS_DATABASE_REBUILD		= "データベースの再構築"
+
+# DataBase
+# データベース
+DATABASEUPDATEQUESTION			= "データベースを更新しますか?"
+DATABASEREBUILDQUESTION			= "データベースを再構築しますか?"
+DATABASEUPDATECONFIRMQUESTION		= "データベースの更新の為に再起動しますか?"
+DATABASEREBUILDCONFIRMQUESTION		= "データベースを再構築する為に再起動します。\\警告\ データベースの再構築を実施すると、アイコンのレイアウトを初期化します\\よろしいですか?"
 
 # USB strings
 # USBの文字列
