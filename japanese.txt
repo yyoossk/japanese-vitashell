@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell 1.51対応版日本語言語ファイル 151a140
+# VitaShell 1.51対応版日本語言語ファイル 151b144
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -135,7 +135,7 @@ HENKAKU_UNSAFE_HOMEBREW_MESSAGE		   = "悪意が含まれていたり誤って�
 # VitaShell settings
 # Vitashellの設定
 VITASHELL_SETTINGS_MAIN			= "メインの設定"
-VITASHELL_SETTINGS_LANGUAG		= "言語"
+VITASHELL_SETTINGS_LANGUAGE		= "言語"
 VITASHELL_SETTINGS_THEME		= "テーマ"
 VITASHELL_SETTINGS_SELECT_BUTTON	= "接続モードの選択"
 VITASHELL_SETTINGS_NO_AUTO_UPDATE	= "自動的な更新を無効"
@@ -146,15 +146,15 @@ VITASHELL_SETTINGS_STANDBY		= "待機状態"
 VITASHELL_SETTINGS_SELECT_BUTTON_USB	= "USBモード"
 VITASHELL_SETTINGS_SELECT_BUTTON_FTP	= "FTPモード"
 VITASHELL_SETTINGS_DATABASE		= "データベースメニュー"
-VITASHELL_SETTINGS_DATABASE_UPDATE	= "データベースを更新します"
+VITASHELL_SETTINGS_DATABASE_UPDATE	= "データベースを更新"
 VITASHELL_SETTINGS_DATABASE_REBUILD	= "データベースの再構築"
 
 # DataBase
 # データベース
 DATABASEUPDATEQUESTION			= "データベースを更新しますか?"
-DATABASEREBUILDQUESTION			= "データベースを再構築しますか?"
-DATABASEUPDATECONFIRMQUESTION		= "データベースの更新の為に再起動しますか?"
-DATABASEREBUILDCONFIRMQUESTION		= "データベースを再構築する為に再起動します。\\警告\ データベースの再構築を実施すると、アイコンのレイアウトを初期化します\\よろしいですか?"
+DATABASEREBUILDQUESTION			 = "データベースを再構築しますか?"
+DATABASEUPDATECONFIRMQUESTION		 = "データベースを更新する為に再起動しますか?"
+DATABASEREBUILDCONFIRMQUESTION		= "データベースを再構築する為に再起動します。\\警告\ データベースの再構築を実施すると、アイコンのレイアウトを初期化します\  \よろしいですか?"
 
 # USB strings
 # USBの文字列
