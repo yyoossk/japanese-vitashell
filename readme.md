@@ -1,9 +1,9 @@
 # japanese-vitashell
 vitashell日本語言語ファイル<br />
-molecularShell・VitaShell v1.51・VitaToolBox v1.0対応<br />
-molecularShell・VitaShellの場合、ux0:/VitaShell/language/<br />
-vItaToolBoxの場合は、ux0:/VItaToolBox/language/<br />
-の中に、japanese.txtを入れる<br />
+molecularShell・VitaShell v1.51・VitaToolBox v1.1対応<br />
+molecularShell・VitaShellの場合は、.txtファイルを、ux0:/VitaShell/language/<br />
+vItaToolBoxの場合は、.iniファイルを、ux0:/VItaToolBox/language/<br />
+の中に入れる<br />
 誤字・脱字・誤変換・不具合報告は、作者連絡先へ。<br />
 作者連絡先: https://twitter.com/Umineko19930417<br />
 日本語化ファイル置き場: https://github.com/Umineko1993/japanese-vitashell/releases/<br />
