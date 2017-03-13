@@ -1,5 +1,5 @@
 # japanese-vitashell
-vitashell日本語言語ファイル<br />
+molecularShell・VitaShell・VitaToolBox日本語言語ファイル<br />
 molecularShell・VitaShell v1.6・VitaToolBox v1.21対応<br />
 molecularShell・VitaShellの場合は、.txtファイルを、ux0:/VitaShell/language/<br />
 vItaToolBoxの場合は、.iniファイルを、ux0:/VItaToolBox/language/<br />
