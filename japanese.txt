@@ -1,5 +1,5 @@
 # VitaShell language file
-# VitaShell 1.6対応版日本語言語ファイル 16a147
+# VitaShell 1.6対応版日本語言語ファイル 16a148
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -150,7 +150,7 @@ VITASHELL_SETTINGS_MAIN			= "メインの設定"
 VITASHELL_SETTINGS_LANGUAGE		= "言語"
 VITASHELL_SETTINGS_THEME		= "テーマ"
 VITASHELL_SETTINGS_SELECT_BUTTON	= "接続モードの選択"
-VITASHELL_SETTINGS_USBDEVICE		= "USB device"
+VITASHELL_SETTINGS_USBDEVICE		= "USBデバイス"
 VITASHELL_SETTINGS_NO_AUTO_UPDATE	= "自動的な更新を無効"
 VITASHELL_SETTINGS_POWER		= "電源"
 VITASHELL_SETTINGS_REBOOT		= "再起動"
