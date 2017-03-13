@@ -1,4 +1,4 @@
-# VitaShell language file for 1.51
+# VitaShell language file for 1.6
 
 # General strings
 ERROR                                = "Error 0x%08X."
@@ -21,6 +21,7 @@ DOWNLOADING                          = "Downloading..."
 EXTRACTING                           = "Extracting..."
 COMPRESSING                          = "Compressing..."
 HASHING                              = "Hashing..."
+REFRESHING                           = "Refreshing..."
 
 # Audio player strings
 TITLE                                = "Title"
@@ -36,11 +37,16 @@ OPEN_HEX_EDITOR                      = "Open hex editor"
 # Text editor strings
 EDIT_LINE                            = "Edit line"
 ENTER_SEARCH_TERM                    = "Enter search term"
-CUT                                  = "Cut"
-INSERT_EMPTY_LINE                    = "Insert empty line"
 
-# File browser context menu strings
-MORE                                 = "More"
+# Context menu strings
+REFRESH_LIVEAREA                     = "Refresh livearea"
+MOUNT_UMA0                           = "Mount uma0:"
+MOUNT_USB_UX0                        = "Mount USB ux0:"
+UMOUNT_USB_UX0                       = "Umount USB ux0:"
+SORT_BY                              = "Sort by"
+BY_NAME                              = "By name"
+BY_SIZE                              = "By size"
+BY_DATE                              = "By date"
 MARK_ALL                             = "Mark all"
 UNMARK_ALL                           = "Unmark all"
 MOVE                                 = "Move"
@@ -50,11 +56,14 @@ DELETE                               = "Delete"
 RENAME                               = "Rename"
 NEW_FOLDER                           = "New folder"
 PROPERTIES                           = "Properties"
+MORE                                 = "More"
 COMPRESS                             = "Compress"
 INSTALL_ALL                          = "Install all"
 INSTALL_FOLDER                       = "Install folder"
 CALCULATE_SHA1                       = "Calculate SHA1"
 EXPORT_MEDIA                         = "Export media"
+CUT                                  = "Cut"
+INSERT_EMPTY_LINE                    = "Insert empty line"
 SEARCH                               = "Search"
 
 # File browser properties strings
@@ -85,6 +94,7 @@ PROPERTY_FSELF_MODE_UNSAFE           = "Unsafe"
 PROPERTY_FSELF_MODE_SCE              = "SCE signed"
 
 # File browser strings
+REFRESHED                            = "Refreshed %d items."
 COPIED_FILE                          = "Copied %d file(s)."
 COPIED_FOLDER                        = "Copied %d folder(s)."
 COPIED_FILES_FOLDERS                 = "Copied %d file(s)/folder(s)."
@@ -106,6 +116,8 @@ INSTALL_QUESTION                     = "Do you want to install this package?"
 INSTALL_WARNING                      = "This package requests extended permissions.\It will have access to your personal information.\If you did not obtain it from a trusted source,\please proceed at your own caution.\\Would you like to continue the install?"
 INSTALL_BRICK_WARNING                = "This package uses functions that remounts\partitions and can potentially brick your device.\If you did not obtain it from a trusted source,\please proceed at your own caution.\\Would you like to continue the install?"
 HASH_FILE_QUESTION                   = "SHA1 hashing may take a long time. Continue?"
+SAVE_MODIFICATIONS                   = "Do you want to save your modifications?"
+REFRESH_LIVEAREA_QUESTION            = "Refreshing the livearea may take a long time. Continue?"
 
 # HENkaku settings strings
 HENKAKU_SETTINGS                     = "HENkaku settings"
@@ -123,32 +135,36 @@ HENKAKU_UNSAFE_HOMEBREW_MESSAGE      = "Unsafe homebrews can damage your device\
 VITASHELL_SETTINGS_MAIN              = "Main settings"
 VITASHELL_SETTINGS_LANGUAGE          = "Language"
 VITASHELL_SETTINGS_THEME             = "Theme"
+VITASHELL_SETTINGS_USBDEVICE         = "USB device"
 VITASHELL_SETTINGS_SELECT_BUTTON     = "SELECT button"
 VITASHELL_SETTINGS_NO_AUTO_UPDATE    = "Disable auto-update"
 VITASHELL_SETTINGS_POWER             = "Power"
 VITASHELL_SETTINGS_REBOOT            = "Reboot"
 VITASHELL_SETTINGS_POWEROFF          = "Power off"
 VITASHELL_SETTINGS_STANDBY           = "Standby"
+VITASHELL_SETTINGS_USB_MEMORY_CARD   = "Memory Card"
+VITASHELL_SETTINGS_USB_GAME_CARD     = "Game Card"
 VITASHELL_SETTINGS_SELECT_BUTTON_USB = "USB"
 VITASHELL_SETTINGS_SELECT_BUTTON_FTP = "FTP"
 
 # USB strings
 USB_CONNECTED                        = "USB connected"
+USB_UMA0_MOUNTED                     = "uma0: mounted."
+USB_UX0_MOUNTED                      = "USB ux0: mounted."
+USB_UX0_UMOUNTED                     = "USB ux0: umounted."
 USB_NOT_CONNECTED                    = "Connect this system to a PC system using a USB cable."
-USB_CONNECTION_PERMISSION            = "USB connection requires extended permissions.\Please activate 'Enable unsafe homebrew' first."
 USB_CONNECTION_NOT_AVAILABLE         = "USB connection is not available on this device."
+USB_WAIT_ATTACH                      = "Please attach an USB flash drive to continue.\If it has already been attached, please detach\and reattach it."
 
 # Others
 SAFE_MODE                            = "SAFE MODE"
 UNSAFE_MODE                          = "UNSAFE MODE"
 PLEASE_WAIT                          = "Please wait..."
-SAVE_MODIFICATIONS                   = "Do you want to save your modifications?"
+GAME_CARD_NOT_FOUND                  = "Please insert a game card."
 NO_SPACE_ERROR                       = "There is not enough free space on the memory\card.\At least %s more space is needed."
+EXTENDED_PERMISSIONS_REQUIRED        = "This feature requires extended permissions.\Please activate 'Enable unsafe homebrew' first."
 WIFI_ERROR                           = "You must use Wi-Fi to do this."
 FTP_SERVER                           = "FTP server is now running at\ftp://%s:%i\\Press 'OK' to keep it in background.\Press 'Cancel' to disconnect."
-SYS_INFO                             = "System software: %s\Model: 0x%08X\MAC address: %s\IP address: %s\Memory card: %s/%s\Battery level: %d%%"
 UPDATE_QUESTION                      = "VitaShell %s is now available.\\Do you want to update the application?"
-TOOLBOX                              = "Toolbox"
-SYSINFO_TITLE                        = "System Information"
 ARCHIVE_NAME                         = "Archive name"
 COMPRESSION_LEVEL                    = "Compression level (0-9)"
