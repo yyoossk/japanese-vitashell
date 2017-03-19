@@ -1,5 +1,5 @@
-# VitaShell language file
-# VitaShell 1.6対応版日本語言語ファイル 16a148
+# VitaShell language file for 1.61
+# VitaShell 1.61対応版日本語言語ファイル 161a149
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -218,9 +218,9 @@ NO_SPACE_ERROR				= "メモリーカードに充分な空き容量がありま�
 EXTENDED_PERMISSIONS_REQUIRED		= "この機能には、拡張アクセス許可が必要です\安全ではない自作アプリを有効にして下さい"
 WIFI_ERROR				= "Wi-Fiを有効にする必要があります"
 FTP_SERVER				   = "FTPサーバーを動作させます\ftp://%s:%i\ \OKを選択するとバックグラウンドで動作します   \キャンセルを選択すると接続を解除します"
-#SYS_INFO				  = "システムソフトウェア: %s\モデル: 0x%08X  \MACアドレス: %s \IPアドレス: %s \メモリーカード: %s/%s \バッテリー容量: %d%%"
+SYS_INFO				  = "システムソフトウェア: %s\モデル: 0x%08X  \MACアドレス: %s \IPアドレス: %s \メモリーカード: %s/%s \バッテリー容量: %d%%"
 UPDATE_QUESTION				= "VitaShell %sの更新が利用出来ます\\VitaShellの更新をしますか?"
-#TOOLBOX					= "ツールボックス"
-#SYSINFO_TITLE				= "システム情報"
+TOOLBOX					= "ツールボックス"
+SYSINFO_TITLE				= "システム情報"
 ARCHIVE_NAME				= "アーカイブ名"
 COMPRESSION_LEVEL			= "圧縮率(0-9)"
