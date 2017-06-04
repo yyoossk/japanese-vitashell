@@ -152,6 +152,7 @@ VITASHELL_SETTINGS_SELECT_BUTTON_FTP = "FTP"
 # USB strings
 USB_CONNECTED                        = "USB connected"
 USB_UMA0_MOUNTED                     = "uma0: mounted."
+IMC0_MOUNTED                         = "imc0: mounted."
 USB_UX0_MOUNTED                      = "USB ux0: mounted."
 USB_UX0_UMOUNTED                     = "USB ux0: umounted."
 USB_NOT_CONNECTED                    = "Connect this system to a PC system using a USB cable."
@@ -159,7 +160,6 @@ USB_CONNECTION_NOT_AVAILABLE         = "USB connection is not available on this 
 USB_WAIT_ATTACH                      = "Please attach an USB flash drive to continue.\If it has already been attached, please detach\and reattach it."
 
 # Others
-IMC0_MOUNTED                         = "imc0: mounted."
 SAFE_MODE                            = "SAFE MODE"
 UNSAFE_MODE                          = "UNSAFE MODE"
 PLEASE_WAIT                          = "Please wait..."
