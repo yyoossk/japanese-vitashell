@@ -1,12 +1,13 @@
 /**
-HENkaku R9対応版言語ファイル v.1
+HENkaku R10.1対応版言語ファイル v.2
 日本語のみ修正
 修正者 @Umineko19930417
 **/
 
 /**
- * @brief      Language container for HENkaku Settings
- */
+  @brief      Language container for HENkaku Settings
+ **/
+
 #ifndef LANGUAGE_HEADER
 #define LANGUAGE_HEADER
 
@@ -20,9 +21,16 @@ typedef struct {
   char *msg_button_behavior;
   char *msg_button_enter;
   char *msg_button_cancel;
+  char *msg_reload_taihen_config;
+  char *msg_reload_taihen_config_success;
+  char *msg_reboot_device;
+  char *msg_downloader;
+  char *msg_unlink_memory_card;
+  char *msg_unlink_memory_card_success;
+  char *msg_unlink_memory_card_error;
 } language_container_t;
 
-language_container_t language_japanese = {
+language_container_t language_japanese = {  
   "HENkakuの設定",
   "PSNの偽装を有効",
   "安全ではない自作アプリを有効",
@@ -31,10 +39,16 @@ language_container_t language_japanese = {
   "偽装するバージョン",
   "○ボタンの動作設定",
   "決定",
-  "キャンセル"
+  "キャンセル",
+  "taiHENのconfig.txtの再読込",
+  "taiHENのconfig.txtが正常に再読込されました",
+  "再起動",
+  "コンテンツ ダウンローダー",
+  "メモリーカードとの接続を解除",
+  "ux0のid.datが削除しまた。このメモリーカードは他のVitaでも使用可能となりました",
+  "ux0の接続に失敗しました。メモリーカードは挿入されていますか？",
 };
 
-// by molecule
 language_container_t language_english_us = {
   "HENkaku Settings",
   "Enable PSN spoofing",
@@ -44,10 +58,16 @@ language_container_t language_english_us = {
   "Spoofed Version",
   "○ Button Behavior",
   "Enter",
-  "Cancel"
+  "Cancel",
+  "Reload taiHEN config.txt",
+  "taiHEN config.txt has been successfully reloaded.",
+  "Reboot device",
+  "Content Downloader",
+  "Unlink Memory Card",
+  "ux0:id.dat has been deleted. This memory card can now be used on any Vita.",
+  "Failed to mount ux0. Is a memory card inserted?",
 };
 
-// by jokira & devnoname120 & CelesteBlue-dev & chronoss09
 language_container_t language_french = {
   "Paramètres de HENkaku",
   "Activer le spoof du PSN",
@@ -57,10 +77,16 @@ language_container_t language_french = {
   "Version spoofée",
   "Action du bouton ○",
   "Valider",
-  "Annuler"
+  "Annuler",
+  "Recharger le fichier config.txt de taiHEN",
+  "Le fichier config.txt de taiHEN a bien été rechargé.",
+  "Redémarrer la console",
+  "Téléchargement de contenu",
+  "Délier la carte mémoire",
+  "ux0:id.dat a été supprimé. Cette carte mémoire peut être utilisée sur n'importe quelle Vita.",
+  "Le montage de ux0 a échoué. Y a-t-il une carte mémoire insérée?",
 };
 
-// by EricWeichhart & iamn0tdev
 language_container_t language_spanish = {
   "Ajustes de HENkaku",
   "Activar Spoofing para PSN",
@@ -70,10 +96,16 @@ language_container_t language_spanish = {
   "Versión para Spoofing",
   "Comportamiento del botón ○",
   "Aceptar",
-  "Cancelar"
+  "Cancelar",
+  "Recargar taiHEN config.txt",
+  "taiHEN config.txt ha sido recargado correctamente.",
+  "Reiniciar dispositivo",
+  "Descargador de Contenido",
+  "Desvincular la Tarjeta de Memoria",
+  "El ux0:id.dat ha sido eliminado. Esta tarjeta de memoria ahora se puede utilizar en cualquier Vita.",
+  "Ha habido un fallo al montar el ux0. ¿Se ha insertado una tarjeta de memoria?",
 };
 
-// by Ziusun
 language_container_t language_german = {
   "HENkaku-Einstellungen",
   "PSN-Zugang aktivieren",
@@ -83,10 +115,16 @@ language_container_t language_german = {
   "Aktuelle Firmware",
   "Funktion der ○-Taste",
   "Bestätigen",
-  "Abbrechen"
+  "Abbrechen",
+  "Die config.txt von taiHEN aktualisieren",
+  "Die config.txt von taiHEN wurde erfolgreich aktualisiert.",
+  "Gerät neustarten",
+  "Inhaltsdownloader",
+  "Speicherkarte entkoppeln",
+  "Der Dateieintrag ux0:id.dat wurde gelöscht. Diese Speicherkarte kann jetzt mit jeder Playstation Vita verwendet werden.",
+  "Die Partition ux0: konnte nicht gemountet werden. Ist eine Speicherkarte eingesteckt?",
 };
 
-// by blackjack4it
 language_container_t language_italian = {
   "Impostazioni Henkaku",
   "Abilita lo Spoof PSN",
@@ -96,10 +134,16 @@ language_container_t language_italian = {
   "Versione corrente (Spoof)",
   "Comportamento del tasto ○",
   "OK",
-  "Annulla"
+  "Annulla",
+  "Ricarica taiHEN config.txt",
+  "TaiHEN config.txt ricaricato correttamente.",
+  "Riavvia dispositivo",
+  "Scarica contenuto",
+  "Disassocia Memory Card",
+  "ux0:id.dat è stato cancellato. Adesso questa Memory Card può essere usata su qualsiasi PS Vita.",
+  "Impossibile montare ux0. La Memory Card è inserita?",
 };
 
-// by ConsoleHax
 language_container_t language_dutch = {
   "HENkaku Instellingen",
   "Activeer PSN spoofing",
@@ -109,10 +153,16 @@ language_container_t language_dutch = {
   "Spoofed Versie",
   "Gedrag van de ○-knop",
   "Enter",
-  "Annuleren"
+  "Annuleren",
+  "Herlaad taiHEN config.txt",
+  "taiHEN config.txt is succesvol herladen.",
+  "Herstart apparaat",
+  "Inhoud downloader",
+  "Geheugenkaart loskoppelen",
+  "ux0:id.dat is verwijderd. Deze geheugenkaart kan nu op elke Vita gebruikt worden.",
+  "Aankoppelen van ux0 is mislukt. Is er wel een geheugenkaart aanwezig?",
 };
 
-// by gnmmarechal
 language_container_t language_portuguese_pt = {
   "Definições do HENkaku",
   "Ativar spoof da PSN",
@@ -122,10 +172,16 @@ language_container_t language_portuguese_pt = {
   "Versão do spoof",
   "Ação do botão ○",
   "Entrar",
-  "Cancelar"
+  "Cancelar",
+  "Recarrege o ficheiro config.txt do taiHEN",
+  "O ficheiro taiHEN config.txt foi recarregado com sucesso.",
+  "Reiniciar o dispositivo",
+  "Descarregar Conteúdo",
+  "Desassociar Cartão de Memória",
+  "ux0:id.dat foi eliminado. Este cartão de memória pode agora ser usado em qualquer Vita.",
+  "Falha ao montar ux0. O cartão de memória está inserido?",
 };
 
-// by Tenek
 language_container_t language_russian = {
   "Настройки HENkaku",
   "Включить спуфинг PSN",
@@ -135,10 +191,16 @@ language_container_t language_russian = {
   "Поддельная версия",
   "Поведение кнопки ○",
   "Ввод",
-  "Отмена"
+  "Отмена",
+  "Перезагрузить taiHEN config.txt",
+  "taiHEN config.txt был успешно перезагружен.",
+  "Перезапустить устройство",
+  "Загрузчик контента",
+  "Отвязать карту памяти",
+  "ux0:id.dat был удален. Эта карта памяти теперь может быть использована на любой PSVita.",
+  "Ошибка при монтировании ux0. Проверьте, вставлена ли карта памяти",
 };
 
-// by TriggerHavoc
 language_container_t language_korean = {
   "HENkaku 설정",
   "PSN 스푸핑 활성화",
@@ -148,10 +210,16 @@ language_container_t language_korean = {
   "스푸핑 버전",
   "○ 버튼 설정",
   "확인",
-  "취소"
+  "취소",
+  "taiHEN config.txt를 다시 로드하기",
+  "taiHEN config.txt를 성공적으로 로드했습니다.",
+  "기기 재부팅",
+  "컨텐츠 다운로더",
+  "메모리 카드 언링크",
+  "ux0:id.dat 파일이 삭제되었습니다. 이제 이 메모리 카드는 모든 비타에서 사용하실 수 있습니다.",
+  "ux0에 마운트 할 수 없습니다. 메모리 카드가 올바르게 삽입되어 있습니까?",
 };
 
-// by iTZQing
 language_container_t language_chinese_t = {
   "HENkaku設置",
   "啟用PSN偽裝",
@@ -159,12 +227,18 @@ language_container_t language_chinese_t = {
   "如果不安全自制軟件被誤用、配置出現錯誤或軟件本身是惡意程序，可能會永久性損壞你的設備。請謹慎安裝！",
   "啟用版本偽裝",
   "偽裝版本",
-  "○ 按鍵配置",
+  "○鍵配置",
   "確定",
-  "取消"
+  "取消",
+  "重新載入taiHEN config.txt",
+  "重新載入taiHEN config.txt成功",
+  "重啟設備",
+  "下載內容管理器",
+  "解除記憶卡關聯",
+  "已刪除ux0:id.dat，現在這張記憶卡可應用到任意PSV上",
+  "掛載ux0失敗，請檢查記憶卡是否插入",
 };
 
-// by iTZQing
 language_container_t language_chinese_s = {
   "HENkaku设置",
   "启用PSN伪装",
@@ -172,12 +246,18 @@ language_container_t language_chinese_s = {
   "如果不安全自制软件被误用、配置出现错误或软件本身是恶意程序，可能会永久性损坏你的设备。请谨慎安装！",
   "启用版本伪装",
   "伪装版本",
-  "○ 按键配置",
+  "○键配置",
   "确定",
-  "取消"
+  "取消",
+  "重新载入taiHEN config.txt",
+  "重新载入taiHEN config.txt成功",
+  "重启设备",
+  "下载内容管理器",
+  "解除存储卡关联",
+  "已删除ux0:id.dat，现在这张存储卡可用在任意PSV上",
+  "挂载ux0失败，请检查存储卡是否插入",
 };
 
-// by v5000a
 language_container_t language_finnish = {
   "HENkakun Asetukset",
   "Ota PSN spooffaaminen käyttöön",
@@ -187,10 +267,16 @@ language_container_t language_finnish = {
   "Spooffattu versio",
   "○-näppäimen toiminto",
   "Valitse",
-  "Peruuta"
+  "Peruuta",
+  "Lataa taiHEN config.txt uudelleen",
+  "taiHEN config.txt uudelleenladattiin onnistuneesti.",
+  "Käynnistä laite uudelleen",
+  "Sisällönlataaja",
+  "Irrota muistikortti",
+  "ux0:id.dat on poistettu. Voit nyt käyttää tätä muistikorttia millä tahansa Vitalla.",
+  "ux0:n liittäminen epäonnistui. Onko muistikortti laitteessa?",
 };
 
-// by MrOrbital
 language_container_t language_swedish = {
   "HENkaku Inställningar",
   "Aktivera fejkad PSN-inloggning",
@@ -200,10 +286,16 @@ language_container_t language_swedish = {
   "Fejkad version",
   "Funktion på ○-knapp",
   "Välj",
-  "Avbryt"
+  "Avbryt",
+  "Ladda om taiHEN config.txt",
+  "taiHEN config.txt har laddats om.",
+  "Starta om enhet",
+  "Innehållsnedladdare",
+  "Avlänka minneskort",
+  "ux0:id.dat har tagits bort. Det här minneskortet kan nu användas i valfri Vita.",
+  "Misslyckades med att montera ux0. Har du satt i ett minneskort?",
 };
 
-// by coestergaard
 language_container_t language_danish = {
   "HENkaku indstillinger",
   "Aktiver PSN spoofing",
@@ -213,10 +305,16 @@ language_container_t language_danish = {
   "Spoofed version",
   "○ knap funktion",
   "Vælg",
-  "Afbryd"
+  "Afbryd",
+  "Genindlæs taiHEN config.txt",
+  "taiHEN config.txt er blevet geninlæst med succes.",
+  "Genstart enhed",
+  "Content Downloader",
+  "Fjern link til hukommelseskort",
+  "ux0:id.dat er blevet slettet. Dette hukommelseskort kan nu bruges på enhver Vita.",
+  "Kunne ikke gemme ux0. Er der indsat et hukommelseskort?",
 };
 
-// by baniel105
 language_container_t language_norwegian = {
   "HENkaku Instillinger",
   "Aktiver forfalsket PSN-innlogging",
@@ -226,10 +324,16 @@ language_container_t language_norwegian = {
   "Forfalsket versjon",
   "Funksjon på ○-knapp",
   "Velg",
-  "Avbryt"
+  "Avbryt",
+  "Last på nytt taiHEN config.txt",
+  "taiHEN config.txt har blitt lastet.",
+  "Start enheten på nytt",
+  "Innholds Nedlaster",
+  "Lås opp Minnekort",
+  "ux0:id.dat er slettet. Dette minnekortet kan brukest på hvilken som helst Vita.",
+  "Klarte ikkje montere av ux0. Har du satt i eit minnekort?",
 };
 
-// by Grzybojad & szczuru
 language_container_t language_polish = {
   "Ustawienia HENkaku",
   "Włącz fałszowanie PSN/SEN (spoofing)",
@@ -239,10 +343,16 @@ language_container_t language_polish = {
   "Fałszowana wersja",
   "Akcja przycisku ○",
   "OK",
-  "Anuluj"
+  "Anuluj",
+  "Załaduj ponownie config.txt taiHEN",
+  "config.txt taiHEN został pomyślnie załadowany ponownie.",
+  "Uruchom ponownie konsolę",
+  "Pobieranie zawartości",
+  "Odłącz kartę pamięci",
+  "Plik ux0:id.dat został usunięty z karty pamięci. Można jej teraz używać z każdym systemem PS Vita",
+  "Błąd podczas montowania partycji ux0, czy karta pamięci jest włożona?",
 };
 
-// by GrayJack & haouingvalt
 language_container_t language_portuguese_br = {
   "Configurações do HENkaku",
   "Habilitar mimetização da PSN ",
@@ -252,10 +362,16 @@ language_container_t language_portuguese_br = {
   "Versão a mimetizar",
   "Ação do botão ○",
   "Entrar",
-  "Cancelar"
+  "Cancelar",
+  "Recarrege o arquivo config.txt do taiHEN",
+  "taiHEN config.txt foi recarregado com sucesso.",
+  "Reiniciar o dispositivo",
+  "Baixar Conteúdo",
+  "Desassociar o Cartão de Memória",
+  "ux0:id.dat foi deletado. Agora este cartão de memória pode ser usado em qualquer Vita.",
+  "Falha ao montar ux0. O cartão de memória está inserido?",
 };
 
-// by molecule
 language_container_t language_english_gb = {
   "HENkaku Settings",
   "Enable PSN spoofing",
@@ -265,10 +381,16 @@ language_container_t language_english_gb = {
   "Spoofed Version",
   "○ Button Behaviour",
   "Enter",
-  "Cancel"
+  "Cancel",
+  "Reload taiHEN config.txt",
+  "taiHEN config.txt has been successfully reloaded.",
+  "Reboot device",
+  "Content Downloader",
+  "Unlink Memory Card",
+  "ux0:id.dat has been deleted. This memory card can now be used on any Vita.",
+  "Failed to mount ux0. Is a memory card inserted?",
 };
 
-// by Chronicl3
 language_container_t language_turkish = {
   "HENkaku Ayarları",
   "PSN spoofing Etkinleştir",
@@ -278,7 +400,14 @@ language_container_t language_turkish = {
   "Spoofed Versiyon",
   "○ Düğmesi Davranışı",
   "Gir",
-  "İptal"
+  "İptal",
+  "taiHEN config.txt'yi yeniden yükle",
+  "taiHEN config.txt başarılı bir şekilde yeniden yüklendi.",
+  "Cihazı yeniden başlat",
+  "İçerik İndiricisi",
+  "Hafıza Kartı Bağlantısını Kaldır",
+  "ux0:id.dat silindi.Bu hafıza kartı şuan herhangi bir vita da kullanılabilir",
+  "ux0 dizin okuma başarısız oldu.Hafıza kartınız takılı mı?",
 };
 
 #endif // LANGUAGE_HEADER
