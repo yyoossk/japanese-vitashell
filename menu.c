@@ -74,8 +74,8 @@ static char *ms_location_options[] = { "ux0:pspemu", "ur0:pspemu", "imc0:pspemu"
 static MenuEntry main_entries[] = {
 	{ "スタンバイモードに移行", MENU_ENTRY_TYPE_CALLBACK, 0, EnterStandbyMode, NULL, NULL, 0 },
 	{ "公式設定を開く", MENU_ENTRY_TYPE_CALLBACK, 0, OpenOfficialSettings, NULL, NULL, 0 },
-	{ "PSPメニューアプリケーションを閉じる", MENU_ENTRY_TYPE_CALLBACK, 0, ExitPspEmuApplication, NULL, NULL, 0 },
-	{ "Adrenalineのメニューを閉じる", MENU_ENTRY_TYPE_CALLBACK, 0, ExitAdrenalineMenu, NULL, NULL, 0 },
+	{ "PSPエミュレーターアプリケーションを閉じる", MENU_ENTRY_TYPE_CALLBACK, 0, ExitPspEmuApplication, NULL, NULL, 0 },
+	{ "Adrenalineメニューを閉じる", MENU_ENTRY_TYPE_CALLBACK, 0, ExitAdrenalineMenu, NULL, NULL, 0 },
 };
 
 static MenuEntry settings_entries[] = {
@@ -84,19 +84,23 @@ static MenuEntry settings_entries[] = {
 	{ "PSPの画面サイズ", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.screen_size, screen_size_options, sizeof(screen_size_options) / sizeof(char **) },
 	{ "PS1のスクリーンモード", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.screen_mode, screen_mode_options, sizeof(screen_mode_options) / sizeof(char **) },
 	{ "メモリーカードの場所", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.ms_location, ms_location_options, sizeof(ms_location_options) / sizeof(char **) },
-	{ "DS3/DS4コントローラーの使用", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.use_ds3_ds4, no_yes_options, sizeof(no_yes_options) / sizeof(char **) },
+	{ "DualShock 3/4コントローラーの使用", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.use_ds3_ds4, no_yes_options, sizeof(no_yes_options) / sizeof(char **) },
 	{ "Adrenaline起動ロゴのスキップ", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.skip_logo, no_yes_options, sizeof(no_yes_options) / sizeof(char **) },
 };
 
 static MenuEntry about_entries[] = {
-	{ "6.61 Adrenaline", MENU_ENTRY_TYPE_TEXT, ORANGE, NULL, NULL, NULL, 0 },
+#if (ADRENALINE_VERSION_MINOR > 0)
+	{ "6.61 Adrenaline-" ADRENALINE_VERSION_MAJOR_STR "." ADRENALINE_VERSION_MINOR_STR, MENU_ENTRY_TYPE_TEXT, ORANGE, NULL, NULL, NULL, 0 },
+#else
+	{ "6.61 Adrenaline-" ADRENALINE_VERSION_MAJOR_STR, MENU_ENTRY_TYPE_TEXT, ORANGE, NULL, NULL, NULL, 0 },
+#endif
 	{ "by TheFloW", MENU_ENTRY_TYPE_TEXT, WHITE, NULL, NULL, NULL, 0 },
 	{ "", MENU_ENTRY_TYPE_TEXT, WHITE, NULL, NULL, NULL, 0 },
 	{ "", MENU_ENTRY_TYPE_TEXT, WHITE, NULL, NULL, NULL, 0 },
 	{ "クレジット", MENU_ENTRY_TYPE_TEXT, ORANGE, NULL, NULL, NULL, 0 },
-	{ "Team molecule for HENkaku", MENU_ENTRY_TYPE_TEXT, WHITE, NULL, NULL, NULL, 0 },
-	{ "frangarcj for グラフィックフィルタリング", MENU_ENTRY_TYPE_TEXT, WHITE, NULL, NULL, NULL, 0 },
-	{ "xerpi for vita2dlib", MENU_ENTRY_TYPE_TEXT, WHITE, NULL, NULL, NULL, 0 },
+	{ "HENkaku:Team molecule", MENU_ENTRY_TYPE_TEXT, WHITE, NULL, NULL, NULL, 0 },
+	{ "グラフィックフィルタリング:frangarcj", MENU_ENTRY_TYPE_TEXT, WHITE, NULL, NULL, NULL, 0 },
+	{ "vita2dlib:xerpi", MENU_ENTRY_TYPE_TEXT, WHITE, NULL, NULL, NULL, 0 },
 };
 
 static TabEntry tab_entries[] = {
@@ -158,7 +162,7 @@ int ExitAdrenalineMenu() {
 	if (changed) {
 		config.magic[0] = ADRENALINE_CFG_MAGIC_1;
 		config.magic[1] = ADRENALINE_CFG_MAGIC_2;
-		WriteFile("ur0:adrenaline/adrenaline.bin", &config, sizeof(AdrenalineConfig));
+		WriteFile("ux0:app/" ADRENALINE_TITLEID "/adrenaline.bin", &config, sizeof(AdrenalineConfig));
 	}
 
 	SceAdrenaline *adrenaline = (SceAdrenaline *)ScePspemuConvertAddress(ADRENALINE_ADDRESS, SCE_COMPAT_CACHE_NONE, ADRENALINE_SIZE);
@@ -186,7 +190,7 @@ void drawMenu() {
 
 	// Draw title
 	vita2d_draw_rectangle(WINDOW_X, WINDOW_Y, WINDOW_WIDTH, 38.0f, COLOR_ALPHA(GRAY, 0x7F));
-	char *title = "Adrenaline Menu";
+	char *title = "Adrenalineメニュー";
 	pgf_draw_textf(WINDOW_X + ALIGN_CENTER(WINDOW_WIDTH, vita2d_pgf_text_width(font, FONT_SIZE, title)), FONT_Y_LINE(0), WHITE, FONT_SIZE, title);
 
 	// Draw tabs
@@ -197,7 +201,8 @@ void drawMenu() {
 		if (i != 0)
 			vita2d_draw_rectangle(WINDOW_X + (i * TAB_SIZE) - 2.0f, FONT_Y_LINE(19) - 5.0f, 4.0f, 38.0f, COLOR_ALPHA(BLACK, 0x8F));
 
-		pgf_draw_text(WINDOW_X + (i * TAB_SIZE) + ALIGN_CENTER(TAB_SIZE, vita2d_pgf_text_width(font, FONT_SIZE, tab_entries[i].name)), FONT_Y_LINE(19), WHITE, FONT_SIZE, tab_entries[i].name);
+		float x = WINDOW_X + (i * TAB_SIZE) + ALIGN_CENTER(TAB_SIZE, vita2d_pgf_text_width(font, FONT_SIZE, tab_entries[i].name));
+		pgf_draw_text(x, FONT_Y_LINE(19), WHITE, FONT_SIZE, tab_entries[i].name);
 	}
 
 	// Draw entries
@@ -231,7 +236,7 @@ void drawMenu() {
 		
 		// Info about Original filter
 		if (tab_sel == 2 && menu_sel == 0 && config.graphics_filtering == 0) {
-			char *title = "All graphics related options are not taking effect with the Original rendering mode.";
+			char *title = "全てのグラフィックス関連のオプションは、元のレンダリングモードでは有効になりません";
 			pgf_draw_textf(WINDOW_X + ALIGN_CENTER(WINDOW_WIDTH, vita2d_pgf_text_width(font, FONT_SIZE, title)), FONT_Y_LINE(17), WHITE, FONT_SIZE, title);
 		}
 	} else {
@@ -402,7 +407,7 @@ int AdrenalineDraw(SceSize args, void *argp) {
 
 	vita2d_shader *shader = opaque_shader;
 
-	settings_semaid = sceKernelCreateSema("AdrenalineSettingsSemaphore", 0, 0, 1, NULL);
+	settings_semaid = sceKernelCreateSema("Adrenaline設定信号", 0, 0, 1, NULL);
 	if (settings_semaid < 0)
 		return settings_semaid;
 
@@ -419,7 +424,7 @@ int AdrenalineDraw(SceSize args, void *argp) {
 			vita2d_start_drawing();
 			vita2d_clear_screen();
 
-			char *title = "Please wait...";
+			char *title = "暫くお待ち下さい";
 			pgf_draw_textf(ALIGN_CENTER(SCREEN_WIDTH, vita2d_pgf_text_width(font, FONT_SIZE, title)), FONT_Y_LINE(8), WHITE, FONT_SIZE, title);
 
 			// End drawing
