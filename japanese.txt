@@ -1,5 +1,6 @@
 # VitaShell language file for 1.63
-# VitaShell 1.63対応版日本語言語ファイル 163a154
+# VitaShell 1.63対応版日本語言語ファイル 163a155
+# 更新 201709171843
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -163,6 +164,8 @@ VITASHELL_SETTINGS_POWEROFF		= "電源を切る"
 VITASHELL_SETTINGS_STANDBY		= "待機状態"
 VITASHELL_SETTINGS_USB_MEMORY_CARD	= "メモリーカード"
 VITASHELL_SETTINGS_USB_GAME_CARD	= "ゲームカード"
+VITASHELL_SETTINGS_USB_SD2VITA		= "sd2vita"
+VITASHELL_SETTINGS_USB_PSVSD		= "psvsd"
 VITASHELL_SETTINGS_SELECT_BUTTON_USB	= "USBモード"
 VITASHELL_SETTINGS_SELECT_BUTTON_FTP	= "FTPモード"
 VITASHELL_SETTINGS_DATABASE		= "データベースメニュー"
@@ -226,7 +229,9 @@ QR_SHOW_CONTENTS			= "QRコードの内容:\%s"
 SAFE_MODE				= "安全なモード"
 UNSAFE_MODE				= "安全ではないモード"
 PLEASE_WAIT				= "しばらくお待ち下さい"
+MEMORY_CARD_NOT_FOUND			= "メモリーカードを挿入して下さい"
 GAME_CARD_NOT_FOUND			= "ゲームカードを挿入して下さい"
+MICROSD_NOT_FOUND			= "マイクロSDカードを挿入して下さい"
 NO_SPACE_ERROR				= "メモリーカードに充分な空き容量がありません\あと%s以上の空き容量が必要です"
 EXTENDED_PERMISSIONS_REQUIRED		= "この機能には、拡張アクセス許可が必要です\安全ではない自作アプリを有効にして下さい"
 WIFI_ERROR				= "Wi-Fiを有効にする必要があります"
