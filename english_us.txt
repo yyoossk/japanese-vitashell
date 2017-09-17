@@ -1,4 +1,5 @@
 # VitaShell language file for 1.63
+# update 201709171842
 
 # General strings
 ERROR                                = "Error 0x%08X."
