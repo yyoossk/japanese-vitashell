@@ -1,5 +1,6 @@
 # VitaShell日本語言語ファイル
-molecularShell・VitaShell v1.63・VitaToolBox v1.22対応<br />
+2017/09/18 12:16 JST更新
+molecularShell・VitaShell v1.72・VitaToolBox v1.22対応<br />
 molecularShell・VitaShellの場合は、.txtファイルを、ux0:/VitaShell/language/<br />
 VitaToolBoxの場合は、.iniファイルを、ux0:/VitaToolBox/language/<br />
 の中に入れる<br />
