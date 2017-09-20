@@ -1,6 +1,6 @@
-# VitaShell language file for 1.72
-# VitaShell 1.72対応版日本語言語ファイル 172a156
-# 更新 201709181212
+# VitaShell language file for 1.74
+# VitaShell 1.74対応版日本語言語ファイル 174a157
+# 更新 201709201026
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -222,8 +222,10 @@ USB_CONNECTION_NOT_AVAILABLE		= "このデバイスでは、USBの接続を利�
 # QRの文字列
 QR_SCANNING				= "QRコードをスキャン中"
 QR_OPEN_WEBSITE				= "このURLを開きますか?\%s"
-QR_CONFIRM_INSTALL			= "このパッケージをインストールしますか?:\%s"
 QR_SHOW_CONTENTS			= "QRコードの内容:\%s"
+QR_CONFIRM_INSTALL			= "下記のパッケージをインストールしますか?:\%s"
+QR_CONFIRM_DOWNLOAD			= "下記のファイルをダウンロードしますか?\%s\ファイル: %s\サイズ: %s"
+
 
 # Others
 # その他
