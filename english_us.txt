@@ -1,5 +1,5 @@
-# VitaShell language file for 1.72
-# update 201709181207
+# VitaShell language file for 1.74
+# update 201709201020
 
 # General strings
 ERROR                                = "Error 0x%08X."
@@ -170,8 +170,9 @@ USB_WAIT_ATTACH                      = "Please attach an USB flash drive to cont
 # QR strings
 QR_SCANNING                          = "Scanning for QR Codes..."
 QR_OPEN_WEBSITE                      = "Do you want to open this URL:\%s"
-QR_CONFIRM_INSTALL                   = "Do you want to install this package:\%s"
 QR_SHOW_CONTENTS                     = "QR Code Says:\%s"
+QR_CONFIRM_INSTALL                   = "Do you want to install this package:\%s"
+QR_CONFIRM_DOWNLOAD                 = "Do you want to download this file:\%s\File: %s\Size: %s"
 
 # Others
 SAFE_MODE                            = "SAFE MODE"
