@@ -1,6 +1,6 @@
-# VitaShell language file for 1.74
-# VitaShell 1.74対応版日本語言語ファイル 174a157
-# 更新 201709201026
+# VitaShell language file for VitaShellMod ver 1.75
+# VitaShellMod 1.75対応版日本語言語ファイル 175a158
+# 更新 201710222051
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -50,6 +50,8 @@ ENTER_SEARCH_TERM			= "検索用語を入力"
 # Context menu strings
 # コンテキストメニューの文字列
 REFRESH_LIVEAREA			= "ライブエリアをリフレッシュ"
+CREDIT					= "クレジット"
+CID					= "CIDを保存"
 MOUNT_UMA0				= "uma0に接続"
 MOUNT_IMC0				= "imc0に接続"
 MOUNT_USB_UX0				= "USBのux0に接続"
@@ -156,9 +158,10 @@ HENKAKU_UNSAFE_HOMEBREW_MESSAGE		= "悪意が含まれていたり誤って設�
 VITASHELL_SETTINGS_MAIN			= "メインの設定"
 VITASHELL_SETTINGS_LANGUAGE		= "言語"
 VITASHELL_SETTINGS_THEME		= "テーマ"
-VITASHELL_SETTINGS_SELECT_BUTTON	= "接続モードの選択"
 VITASHELL_SETTINGS_USBDEVICE		= "USBデバイス"
+VITASHELL_SETTINGS_SELECT_BUTTON	= "接続モードの選択"
 VITASHELL_SETTINGS_NO_AUTO_UPDATE	= "自動的な更新を無効"
+VITASHELL_SETTINGS_RESTART_SHELL	= "VitaShellを再起動"
 VITASHELL_SETTINGS_POWER		= "電源"
 VITASHELL_SETTINGS_REBOOT		= "再起動"
 VITASHELL_SETTINGS_POWEROFF		= "電源を切る"
@@ -207,6 +210,13 @@ DATABASEREBUILDQUESTION			= "データベースを再構築しますか?"
 DATABASEUPDATECONFIRMQUESTION		= "データベースを更新する為に再起動しますか?"
 DATABASEREBUILDCONFIRMQUESTION		= "データベースを再構築する為に再起動します\\警告\データベースの再構築を実施すると、アイコンのレイアウトを初期化します\\よろしいですか?"
 
+# ForeCast
+# 予報
+FORECAST_HUMID				= "湿度"
+FORECAST_CLOUD				= "曇り"
+FORECAST_ATMOS				= "気圧"
+FORECAST_WIND				= "風"
+
 # USB strings
 # USBの文字列
 USB_CONNECTED				= "USBを接続しました"
@@ -215,8 +225,10 @@ IMC0_MOUNTED				= "imcに接続しました"
 USB_UX0_MOUNTED				= "USBのux0に接続しました"
 USB_UX0_UMOUNTED			= "USBのux0から切断しました"
 USB_NOT_CONNECTED			= "この機能はUSBケーブルを使用してPCと接続します"
-USB_CONNECTION_PERMISSION		= "USBの接続には、拡張アクセス権限が必要です\安全ではない自作アプリを有効にして下さい"
+#USB_CONNECTION_PERMISSION		= "USBの接続には、拡張アクセス権限が必要です\安全ではない自作アプリを有効にして下さい"
 USB_CONNECTION_NOT_AVAILABLE		= "このデバイスでは、USBの接続を利用出来ません"
+USB_WAIT_ATTACH				= "続行するには、USBフラッシュドライブを接続して下さい\既にに取り付けられている場合は、\取り外して取り付け直して下さい"
+
 
 # QR strings
 # QRの文字列
@@ -239,9 +251,10 @@ NO_SPACE_ERROR				= "メモリーカードに充分な空き容量がありま�
 EXTENDED_PERMISSIONS_REQUIRED		= "この機能には、拡張アクセス許可が必要です\安全ではない自作アプリを有効にして下さい"
 WIFI_ERROR				= "Wi-Fiを有効にする必要があります"
 FTP_SERVER				= "FTPサーバーを動作させます\ftp://%s:%i\\OKを選択するとバックグラウンドで動作します\キャンセルを選択すると接続を解除します"
-SYS_INFO				= "システムソフトウェア: %s\モデル: 0x%08X\MACアドレス: %s\IPアドレス: %s\メモリーカード: %s/%s\バッテリー容量: %d%%"
+#SYS_INFO				= "システムソフトウェア: %s\モデル: 0x%08X\MACアドレス: %s\IPアドレス: %s\メモリーカード: %s/%s\バッテリー容量: %d%%"
 UPDATE_QUESTION				= "VitaShell %sの更新が利用出来ます\\VitaShellの更新をしますか?"
-TOOLBOX					= "ツールボックス"
-SYSINFO_TITLE				= "システム情報"
+#TOOLBOX				= "ツールボックス"
+#SYSINFO_TITLE				= "システム情報"
 ARCHIVE_NAME				= "アーカイブ名"
 COMPRESSION_LEVEL			= "圧縮率(0-9)"
+SAVECIDSUCCES				= "CIDの保存に成功しました"
