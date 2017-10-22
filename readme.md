@@ -1,5 +1,5 @@
 # VitaShell日本語言語ファイル
-2017/10/22 12:19 JST更新<br>
+2017/10/22 21:04 JST更新<br>
 molecularShell･VitaShell v1.75･VitaShellMod v1.75対応<br>
 molecularShell･VitaShell･VitaShellModの場合は、.txtファイルを、ux0:/VitaShell/language/ の中に入れる<br>
 VitaToolBoxで使用する場合は、.txtファイルの拡張子を.iniに変更し、ファイルをux0:/VitaToolBox/language/ へ<br>
