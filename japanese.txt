@@ -1,6 +1,6 @@
-# VitaShell language file for VitaShellMod ver 1.75
-# VitaShellMod 1.75対応版日本語言語ファイル 175a158
-# 更新 201710222051
+# VitaShell language file for VitaShell ver 1.76
+# VitaShell 1.76対応版日本語言語ファイル 176a159
+# 更新 201710300043
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -21,6 +21,7 @@ FOLDER					= "フォルダ"
 MOVING					= "移動中"
 COPYING					= "コピー中"
 DELETING				= "削除中"
+IMPORTING				= "インポート中"
 EXPORTING				= "出力中"
 INSTALLING				= "インストール中"
 DOWNLOADING				= "ダウンロード中"
@@ -50,6 +51,7 @@ ENTER_SEARCH_TERM			= "検索用語を入力"
 # Context menu strings
 # コンテキストメニューの文字列
 REFRESH_LIVEAREA			= "ライブエリアをリフレッシュ"
+REFRESH_LICENSE_DB			= "ライセンスデーターベースをリフレッシュ"
 CREDIT					= "クレジット"
 CID					= "CIDを保存"
 MOUNT_UMA0				= "uma0に接続"
@@ -114,6 +116,7 @@ REFRESHED				= "%d個のアイテムをリフレッシュしました"
 COPIED_FILE				= "%d個のファイルをコピーしました"
 COPIED_FOLDER				= "%d個のフォルダをコピーしました"
 COPIED_FILES_FOLDERS			= "%d個のファイル/フォルダをコピーしました"
+IMPORTED_LICENSES			= "%d個のライセンスをインポートしました"
 
 # Dialog questions
 # ダイアログの質問
@@ -221,7 +224,7 @@ FORECAST_WIND				= "風"
 # USBの文字列
 USB_CONNECTED				= "USBを接続しました"
 USB_UMA0_MOUNTED			= "uma0に接続しました"
-IMC0_MOUNTED				= "imcに接続しました"
+IMC0_MOUNTED				= "imc0に接続しました"
 USB_UX0_MOUNTED				= "USBのux0に接続しました"
 USB_UX0_UMOUNTED			= "USBのux0から切断しました"
 USB_NOT_CONNECTED			= "この機能はUSBケーブルを使用してPCと接続します"
@@ -235,7 +238,7 @@ USB_WAIT_ATTACH				= "続行するには、USBフラッシュドライブを接�
 QR_SCANNING				= "QRコードをスキャン中"
 QR_OPEN_WEBSITE				= "このURLを開きますか?\%s"
 QR_SHOW_CONTENTS			= "QRコードの内容:\%s"
-QR_CONFIRM_INSTALL			= "下記のパッケージをインストールしますか?:\%s"
+QR_CONFIRM_INSTALL			= "下記のパッケージをインストールしますか?\%s\ファイル: %s\サイズ: %s""
 QR_CONFIRM_DOWNLOAD			= "下記のファイルをダウンロードしますか?\%s\ファイル: %s\サイズ: %s"
 
 
