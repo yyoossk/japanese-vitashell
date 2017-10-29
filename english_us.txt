@@ -1,5 +1,5 @@
-# VitaShell language file for 1.74
-# update 201709201020
+# VitaShell language file for VitaShell v.1.7.6
+# update 201710300028
 
 # General strings
 ERROR                                = "Error 0x%08X."
@@ -16,6 +16,7 @@ FOLDER                               = "Folder"
 MOVING                               = "Moving..."
 COPYING                              = "Copying..."
 DELETING                             = "Deleting..."
+IMPORTING                            = "Importing..."
 EXPORTING                            = "Exporting..."
 INSTALLING                           = "Installing..."
 DOWNLOADING                          = "Downloading..."
@@ -41,6 +42,7 @@ ENTER_SEARCH_TERM                    = "Enter search term"
 
 # Context menu strings
 REFRESH_LIVEAREA                     = "Refresh livearea"
+REFRESH_LICENSE_DB                   = "Refresh license database"
 MOUNT_UMA0                           = "Mount uma0:"
 MOUNT_IMC0                           = "Mount imc0:"
 MOUNT_USB_UX0                        = "Mount USB ux0:"
@@ -101,6 +103,7 @@ REFRESHED                            = "Refreshed %d items."
 COPIED_FILE                          = "Copied %d file(s)."
 COPIED_FOLDER                        = "Copied %d folder(s)."
 COPIED_FILES_FOLDERS                 = "Copied %d file(s)/folder(s)."
+IMPORTED_LICENSES                    = "Imported %d license(s)."
 
 # Dialog questions
 DELETE_FILE_QUESTION                 = "Are you sure you want to delete this file?"
@@ -125,6 +128,7 @@ INSTALL_BRICK_WARNING                = "This package uses functions that remount
 HASH_FILE_QUESTION                   = "SHA1 hashing may take a long time. Continue?"
 SAVE_MODIFICATIONS                   = "Do you want to save your modifications?"
 REFRESH_LIVEAREA_QUESTION            = "Refreshing the livearea may take a long time. Continue?"
+REFRESH_LICENSE_DB_QUESTION          = "Refreshing the license database may take a long time. Continue?"
 
 # HENkaku settings strings
 HENKAKU_SETTINGS                     = "HENkaku settings"
@@ -160,7 +164,6 @@ VITASHELL_SETTINGS_SELECT_BUTTON_FTP = "FTP"
 # USB strings
 USB_CONNECTED                        = "USB connected"
 USB_UMA0_MOUNTED                     = "uma0: mounted."
-IMC0_MOUNTED                         = "imc0: mounted."
 USB_UX0_MOUNTED                      = "USB ux0: mounted."
 USB_UX0_UMOUNTED                     = "USB ux0: umounted."
 USB_NOT_CONNECTED                    = "Connect this system to a PC system using a USB cable."
@@ -168,18 +171,19 @@ USB_CONNECTION_NOT_AVAILABLE         = "USB connection is not available on this 
 USB_WAIT_ATTACH                      = "Please attach an USB flash drive to continue.\If it has already been attached, please detach\and reattach it."
 
 # QR strings
-QR_SCANNING                          = "Scanning for QR Codes..."
-QR_OPEN_WEBSITE                      = "Do you want to open this URL:\%s"
-QR_SHOW_CONTENTS                     = "QR Code Says:\%s"
-QR_CONFIRM_INSTALL                   = "Do you want to install this package:\%s"
+QR_SCANNING                         = "Scanning for QR Codes..."
+QR_OPEN_WEBSITE                     = "Do you want to open this URL:\%s"
+QR_SHOW_CONTENTS                    = "QR Code Says:\%s"
+QR_CONFIRM_INSTALL                  = "Do you want to install this package:\%s\File: %s\Size: %s"
 QR_CONFIRM_DOWNLOAD                 = "Do you want to download this file:\%s\File: %s\Size: %s"
 
 # Others
+IMC0_MOUNTED                         = "imc0: mounted."
 SAFE_MODE                            = "SAFE MODE"
 UNSAFE_MODE                          = "UNSAFE MODE"
 PLEASE_WAIT                          = "Please wait..."
 MEMORY_CARD_NOT_FOUND                = "Please insert a Memory Card."
-GAME_CARD_NOT_FOUND                  = "Please insert a game card."
+GAME_CARD_NOT_FOUND                  = "Please insert a Game Card."
 MICROSD_NOT_FOUND                    = "Please insert a microSD."
 NO_SPACE_ERROR                       = "There is not enough free space on the memory\card.\At least %s more space is needed."
 EXTENDED_PERMISSIONS_REQUIRED        = "This feature requires extended permissions.\Please activate 'Enable unsafe homebrew' first."
