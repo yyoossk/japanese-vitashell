@@ -1,5 +1,5 @@
-# VitaShell language file for VitaShell v.1.7.6
-# update 201710300028
+# VitaShell language file for VitaShell v.1.76
+# update 201710300034
 
 # General strings
 ERROR                                = "Error 0x%08X."
