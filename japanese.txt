@@ -1,6 +1,6 @@
 # VitaShell language file for VitaShell ver 1.76
-# VitaShell 1.76対応版日本語言語ファイル 176a159
-# 更新 201710300043
+# VitaShell 1.76対応版日本語言語ファイル 176a160
+# 更新 201712312009
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -93,6 +93,7 @@ PROPERTY_CONTAINS			= "内容物"
 PROPERTY_CONTAINS_FILES_FOLDERS		= "%d ファイル / %d フォルダ"
 PROPERTY_CREATION_DATE			= "作成日時"
 PROPERTY_MODFICATION_DATE		= "更新日時"
+PROPERTY_TYPE_ARCHIVE			= "アーカイブ"
 PROPERTY_TYPE_BMP			= "Bitmap画像"
 PROPERTY_TYPE_INI			= "設定ファイル"
 PROPERTY_TYPE_JPEG			= "JPEG画像"
