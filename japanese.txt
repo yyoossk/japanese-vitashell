@@ -1,6 +1,6 @@
-# VitaShell language file for VitaShell ver 1.76
-# VitaShell 1.76対応版日本語言語ファイル 176a160
-# 更新 201712312009
+# VitaShell language file for VitaShell ver 1.77
+# VitaShell 1.76対応版日本語言語ファイル 177a161
+# 2018/01/01 23:20(JST)更新
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
