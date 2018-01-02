@@ -1,6 +1,6 @@
-# VitaShell language file for VitaShell ver 1.77
-# VitaShell 1.76対応版日本語言語ファイル 177a161
-# 2018/01/01 23:20(JST)更新
+# VitaShell language file for VitaShell ver 1.78
+# VitaShell 1.78対応版日本語言語ファイル 178a162
+# 2018/01/02 18:11(JST)更新
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -93,19 +93,19 @@ PROPERTY_CONTAINS			= "内容物"
 PROPERTY_CONTAINS_FILES_FOLDERS		= "%d ファイル / %d フォルダ"
 PROPERTY_CREATION_DATE			= "作成日時"
 PROPERTY_MODFICATION_DATE		= "更新日時"
-PROPERTY_TYPE_ARCHIVE			= "アーカイブ"
+PROPERTY_TYPE_ARCHIVE			= "圧縮ファイル"
 PROPERTY_TYPE_BMP			= "Bitmap画像"
 PROPERTY_TYPE_INI			= "設定ファイル"
 PROPERTY_TYPE_JPEG			= "JPEG画像"
 PROPERTY_TYPE_MP3			= "MP3音声ファイル"
 PROPERTY_TYPE_OGG			= "OGG音声ファイル"
 PROPERTY_TYPE_PNG			= "PNG画像"
-PROPERTY_TYPE_RAR			= "RAR圧縮ファイル"
+# PROPERTY_TYPE_RAR			= "RAR圧縮ファイル"
 PROPERTY_TYPE_SFO			= "SFOファイル"
 PROPERTY_TYPE_TXT			= "テキスト文章"
 PROPERTY_TYPE_VPK			= "VPKパッケージ"
 PROPERTY_TYPE_XML			= "XMLファイル"
-PROPERTY_TYPE_ZIP			= "ZIP圧縮ファイル"
+# PROPERTY_TYPE_ZIP			= "ZIP圧縮ファイル"
 PROPERTY_TYPE_FSELF			= "FSELFファイル"
 PROPERTY_FSELF_MODE_SAFE		= "安全"
 PROPERTY_FSELF_MODE_UNSAFE		= "安全ではない"
