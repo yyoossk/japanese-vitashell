@@ -1,6 +1,6 @@
 # VitaShell language file for VitaShell ver 1.78
-# VitaShell 1.78対応版日本語言語ファイル 178a162
-# 2018/01/02 18:11(JST)更新
+# VitaShell 1.78対応版日本語言語ファイル 178a163
+# 2018/01/02 18:41(JST)更新
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -28,7 +28,7 @@ DOWNLOADING				= "ダウンロード中"
 EXTRACTING				= "展開中"
 COMPRESSING				= "圧縮中"
 HASHING					= "SHA-1ハッシュ値を計算中"
-REFRESHING				= "リフレッシュ中"
+REFRESHING				= "再構築中"
 
 # Audio player strings
 # オーディオプレイヤーの文字列
@@ -50,10 +50,10 @@ ENTER_SEARCH_TERM			= "検索用語を入力"
 
 # Context menu strings
 # コンテキストメニューの文字列
-REFRESH_LIVEAREA			= "ライブエリアをリフレッシュ"
-REFRESH_LICENSE_DB			= "ライセンスデーターベースをリフレッシュ"
-CREDIT					= "クレジット"
-CID					= "CIDを保存"
+REFRESH_LIVEAREA			= "ライブエリアを再構築"
+REFRESH_LICENSE_DB			= "ライセンスデーターベースを再構築"
+# CREDIT				= "クレジット"
+# CID					= "CIDを保存"
 MOUNT_UMA0				= "uma0に接続"
 MOUNT_IMC0				= "imc0に接続"
 MOUNT_USB_UX0				= "USBのux0に接続"
@@ -142,7 +142,8 @@ INSTALL_WARNING				= "このパッケージは拡張パーティションへの�
 INSTALL_BRICK_WARNING			= "このパッケージは、システム領域等に接続する機能が使用されており、\デバイスを破壊する危険性が含まれている可能性があります\信頼可能なソース以外から入手した場合のインストールは\自己判断で行って下さい\\インストールを続行しますか?"
 HASH_FILE_QUESTION			= "SHA-1ハッシュ値の計算には時間がかかる場合があります\\ハッシュ値の計算を続行しますか?"
 SAVE_MODIFICATIONS			= "変更を保存しますか?"
-REFRESH_LIVEAREA_QUESTION		= "ライブエリアのリフレッシュには時間がかかる場合があります\\続行しますか?"
+REFRESH_LIVEAREA_QUESTION		= "ライブエリアの再構築には時間がかかる場合があります\\続行しますか?"
+REFRESH_LICENSE_DB_QUESTION		= "ライセンスデータベースの再構築に時間がかかる場合があります\\続行しますか?"
 
 # HENkaku settings strings
 # 変革設定の文字列
@@ -176,56 +177,55 @@ VITASHELL_SETTINGS_USB_SD2VITA		= "sd2vita"
 VITASHELL_SETTINGS_USB_PSVSD		= "psvsd"
 VITASHELL_SETTINGS_SELECT_BUTTON_USB	= "USBモード"
 VITASHELL_SETTINGS_SELECT_BUTTON_FTP	= "FTPモード"
-VITASHELL_SETTINGS_DATABASE		= "データベースメニュー"
-VITASHELL_SETTINGS_DATABASE_UPDATE	= "データベースを更新"
-VITASHELL_SETTINGS_DATABASE_REBUILD	= "データベースの再構築"
+# VITASHELL_SETTINGS_DATABASE		= "データベースメニュー"
+# VITASHELL_SETTINGS_DATABASE_UPDATE	= "データベースを更新"
+# VITASHELL_SETTINGS_DATABASE_REBUILD	= "データベースの再構築"
 
 # Language Settings
 # 言語の設定
-english_us				= "英語(米)"
-japanese				= "日本語"
-french					= "フランス語"
-spanish					= "スペイン語"
-german					= "ドイツ語"
-italian					= "イタリア語"
-dutch					= "オランダ語"
-portuguese				= "ポルトガル語"
-russian					= "ロシア語"
-korean					= "韓国語"
-chinese_t				= "中国語-繁体字"
-chinese_s				= "中国語-簡体字"
-finnish					= "フィンランド語"
-swedish					= "スゥエーデン語"
-danish					= "デンマーク語"
-norwegian				= "ノルウェー語"
-polish					= "ポーランド語"
-portuguese_br				= "ポルトガル語(ブラジル)"
-turkish					= "トルコ語"
+# english_us				= "英語(米)"
+# japanese				= "日本語"
+# french				= "フランス語"
+# spanish				= "スペイン語"
+# german				= "ドイツ語"
+# italian				= "イタリア語"
+# dutch					= "オランダ語"
+# portuguese				= "ポルトガル語"
+# russian				= "ロシア語"
+# korean				= "韓国語"
+# chinese_t				= "中国語-繁体字"
+# chinese_s				= "中国語-簡体字"
+# finnish				= "フィンランド語"
+# swedish				= "スゥエーデン語"
+# danish				= "デンマーク語"
+# norwegian				= "ノルウェー語"
+# polish				= "ポーランド語"
+# portuguese_br				= "ポルトガル語(ブラジル)"
+# turkish				= "トルコ語"
 
 # ThemeManager
 # テーマーマネージャー
-THEMEMANAGER_SELECT			= "選択"
-THEMEMANAGER_CANCEL			= "キャンセル"
+# THEMEMANAGER_SELECT			= "選択"
+# THEMEMANAGER_CANCEL			= "キャンセル"
 
 # DataBase
 # データベース
-DATABASEUPDATEQUESTION			= "データベースを更新しますか?"
-DATABASEREBUILDQUESTION			= "データベースを再構築しますか?"
-DATABASEUPDATECONFIRMQUESTION		= "データベースを更新する為に再起動しますか?"
-DATABASEREBUILDCONFIRMQUESTION		= "データベースを再構築する為に再起動します\\警告\データベースの再構築を実施すると、アイコンのレイアウトを初期化します\\よろしいですか?"
+# DATABASEUPDATEQUESTION		= "データベースを更新しますか?"
+# DATABASEREBUILDQUESTION		= "データベースを再構築しますか?"
+# DATABASEUPDATECONFIRMQUESTION		= "データベースを更新する為に再起動しますか?"
+# DATABASEREBUILDCONFIRMQUESTION	= "データベースを再構築する為に再起動します\\警告\データベースの再構築を実施すると、アイコンのレイアウトを初期化します\\よろしいですか?"
 
 # ForeCast
 # 予報
-FORECAST_HUMID				= "湿度"
-FORECAST_CLOUD				= "曇り"
-FORECAST_ATMOS				= "気圧"
-FORECAST_WIND				= "風"
+# FORECAST_HUMID			= "湿度"
+# FORECAST_CLOUD			= "曇り"
+# FORECAST_ATMOS			= "気圧"
+# FORECAST_WIND				= "風"
 
 # USB strings
 # USBの文字列
 USB_CONNECTED				= "USBを接続しました"
 USB_UMA0_MOUNTED			= "uma0に接続しました"
-IMC0_MOUNTED				= "imc0に接続しました"
 USB_UX0_MOUNTED				= "USBのux0に接続しました"
 USB_UX0_UMOUNTED			= "USBのux0から切断しました"
 USB_NOT_CONNECTED			= "この機能はUSBケーブルを使用してPCと接続します"
@@ -245,6 +245,7 @@ QR_CONFIRM_DOWNLOAD			= "下記のファイルをダウンロードしますか?
 
 # Others
 # その他
+IMC0_MOUNTED				= "imc0に接続しました"
 SAFE_MODE				= "安全なモード"
 UNSAFE_MODE				= "安全ではないモード"
 PLEASE_WAIT				= "しばらくお待ち下さい"
@@ -259,6 +260,6 @@ FTP_SERVER				= "FTPサーバーを動作させます\ftp://%s:%i\\OKを選択�
 UPDATE_QUESTION				= "VitaShell %sの更新が利用出来ます\\VitaShellの更新をしますか?"
 #TOOLBOX				= "ツールボックス"
 #SYSINFO_TITLE				= "システム情報"
-ARCHIVE_NAME				= "アーカイブ名"
+ARCHIVE_NAME				= "圧縮ファイル名"
 COMPRESSION_LEVEL			= "圧縮率(0-9)"
-SAVECIDSUCCES				= "CIDの保存に成功しました"
+# SAVECIDSUCCES				= "CIDの保存に成功しました"
