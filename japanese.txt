@@ -1,6 +1,6 @@
 # VitaShell language file for VitaShell ver 1.78
-# VitaShell 1.78対応版日本語言語ファイル 178a163
-# 2018/01/02 18:41(JST)更新
+# VitaShell 1.78対応版日本語言語ファイル 178a164
+# 2018/01/08 21:50(JST)更新
 # 作者 @Umineko19930417
 # お願い: http://2ch.net/ にて日本語言語ファイルを紹介する行為はお辞め下さい
 
@@ -263,3 +263,4 @@ UPDATE_QUESTION				= "VitaShell %sの更新が利用出来ます\\VitaShellの�
 ARCHIVE_NAME				= "圧縮ファイル名"
 COMPRESSION_LEVEL			= "圧縮率(0-9)"
 # SAVECIDSUCCES				= "CIDの保存に成功しました"
+ENTER_PASSWORD				= "パスワードを入力"
