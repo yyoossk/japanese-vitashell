@@ -1,5 +1,5 @@
-# VitaShell language file for VitaShell v.1.77
-# update 2018/01/02 18:11(JST)
+# VitaShell language file for VitaShell v.1.78
+# update 2018/01/08 21:51(JST)
 
 # General strings
 ERROR					= "Error 0x%08X."
@@ -191,3 +191,4 @@ FTP_SERVER				= "FTP server is now running at\ftp://%s:%i\\Press 'OK' to keep it
 UPDATE_QUESTION				= "VitaShell %s is now available.\\Do you want to update the application?"
 ARCHIVE_NAME				= "Archive name"
 COMPRESSION_LEVEL			= "Compression level (0-9)"
+ENTER_PASSWORD				= "Enter password"
