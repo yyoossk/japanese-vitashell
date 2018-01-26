@@ -1,5 +1,5 @@
-# VitaShell language file for VitaShell v.1.78
-# update 2018/01/08 21:51(JST)
+# VitaShell language file for VitaShell v.1.8
+# update 2018/01/26 20:03(JST)
 
 # General strings
 ERROR					= "Error 0x%08X."
@@ -60,6 +60,8 @@ DELETE					= "Delete"
 RENAME					= "Rename"
 NEW_FOLDER				= "New folder"
 PROPERTIES				= "Properties"
+SEND					= "Send"
+RECEIVE					= "Receive"
 MORE					= "More"
 COMPRESS				= "Compress"
 INSTALL_ALL				= "Install all"
@@ -175,6 +177,12 @@ QR_OPEN_WEBSITE				= "Do you want to open this URL:\%s"
 QR_SHOW_CONTENTS			= "QR Code Says:\%s"
 QR_CONFIRM_INSTALL			= "Do you want to install this package:\%s\File: %s\Size: %s"
 QR_CONFIRM_DOWNLOAD			= "Do you want to download this file:\%s\File: %s\Size: %s"
+
+# Adhoc strings
+ADHOC_SEARCHING_PSVITA_SEND		= "Searching for a PS Vita to send to...\Please wait."
+ADHOC_SEARCHING_PSVITA_RECEIVE		= "Searching for a PS Vita to receive from...\Please wait."
+ADHOC_SELECT_PSVITA			= "Select PS Vita"
+ADHOC_RECEIVE_QUESTION			= "Do you want to receive from %s?"
 
 # Others
 IMC0_MOUNTED				= "imc0: mounted."
