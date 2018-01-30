@@ -1,6 +1,6 @@
-# VitaShell language file for VitaShell ver 1.8
-# VitaShell 1.8対応版日本語言語ファイル 18a165
-# 2018/01/26 20:03(JST)更新
+# VitaShell language file for VitaShell ver 1.81
+# VitaShell 1.81対応版日本語言語ファイル 181a166
+# 2018/01/30 19:42(JST)更新
 # 作者 @Umineko19930417
 
 # General strings
@@ -28,6 +28,9 @@ EXTRACTING				= "展開中"
 COMPRESSING				= "圧縮中"
 HASHING					= "SHA-1ハッシュ値を計算中"
 REFRESHING				= "再構築中"
+SENDING					= "送信中"
+RECEIVING				= "受信中"
+
 
 # Audio player strings
 # オーディオプレイヤーの文字列
