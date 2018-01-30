@@ -1,5 +1,5 @@
-# VitaShell language file for VitaShell v.1.8
-# update 2018/01/26 20:03(JST)
+# VitaShell language file for VitaShell v.1.81
+# update 2018/01/30 19:41(JST)
 
 # General strings
 ERROR					= "Error 0x%08X."
@@ -24,6 +24,8 @@ EXTRACTING				= "Extracting..."
 COMPRESSING				= "Compressing..."
 HASHING					= "Hashing..."
 REFRESHING				= "Refreshing..."
+SENDING					= "Sending..."
+RECEIVING				= "Receiving..."
 
 # Audio player strings
 TITLE					= "Title"
