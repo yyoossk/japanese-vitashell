@@ -1,19 +1,20 @@
 /*
 	Adrenaline
 	Copyright (C) 2016-2017, TheFloW
-
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
 	the Free Software Foundation, either version 3 of the License, or
 	(at your option) any later version.
-
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
-
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+	6.61 Adrenaline-6 fix 対応 日本語言語ファイル
+	2018/02/22 23:35(JST)更新
+	翻訳者 @Umineko19930417
 */
 
 #include <psp2/appmgr.h>
@@ -66,7 +67,7 @@ static int OpenOfficialSettings();
 static int ExitPspEmuApplication();
 
 static char *graphics_options[] = { "オリジナル", "バイリニア", "シャープバイリニア", "アドバンス AA", "LCD3x" };
-static char *screen_mode_options[] = { "オリジナル", "ノーマル", "ズーム", "フル"};
+static char *screen_mode_options[] = { "オリジナル", "ノーマル", "ズーム", "フル" };
 static char *no_yes_options[] = { "No", "Yes" };
 static char *yes_no_options[] = { "Yes", "No" };
 static char *screen_size_options[] = { "2.0x", "1.75x", "1.5x", "1.25x", "1.0x" };
@@ -76,7 +77,7 @@ static MenuEntry main_entries[] = {
 	{ "スタンバイモードに移行", MENU_ENTRY_TYPE_CALLBACK, 0, EnterStandbyMode, NULL, NULL, 0 },
 	{ "端末をシャットダウン", MENU_ENTRY_TYPE_CALLBACK, 0, ShutdownDevice, NULL, NULL, 0 },
 	{ "公式設定を開く", MENU_ENTRY_TYPE_CALLBACK, 0, OpenOfficialSettings, NULL, NULL, 0 },
-	{ "PSPエミュレーターアプリケーションを閉じるn", MENU_ENTRY_TYPE_CALLBACK, 0, ExitPspEmuApplication, NULL, NULL, 0 },
+	{ "PSPエミュレーターアプリケーションを閉じる", MENU_ENTRY_TYPE_CALLBACK, 0, ExitPspEmuApplication, NULL, NULL, 0 },
 	{ "Adrenalineメニューを閉じる", MENU_ENTRY_TYPE_CALLBACK, 0, ExitAdrenalineMenu, NULL, NULL, 0 },
 };
 
@@ -86,7 +87,7 @@ static MenuEntry settings_entries[] = {
 	{ "PSPの画面サイズ", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.screen_size, screen_size_options, sizeof(screen_size_options) / sizeof(char **) },
 	{ "PS1のスクリーンモード", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.screen_mode, screen_mode_options, sizeof(screen_mode_options) / sizeof(char **) },
 	{ "メモリーカードの場所", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.ms_location, ms_location_options, sizeof(ms_location_options) / sizeof(char **) },
-	{ "DualShock 3/4コントローラーの使用r", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.use_ds3_ds4, no_yes_options, sizeof(no_yes_options) / sizeof(char **) },
+	{ "DualShock 3/4コントローラーの使用", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.use_ds3_ds4, no_yes_options, sizeof(no_yes_options) / sizeof(char **) },
 	{ "Adrenaline起動ロゴのスキップ", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.skip_logo, no_yes_options, sizeof(no_yes_options) / sizeof(char **) },
 };
 
@@ -547,4 +548,4 @@ int ScePspemuCustomSettingsHandler(int a1, int a2, int a3, int a4) {
 	}
 
 	return ScePspemuSettingsHandler(a1, a2, a3, a4);
-}	
+}
