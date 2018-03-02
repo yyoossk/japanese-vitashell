@@ -1,8 +1,9 @@
 # VitaShell日本語言語ファイル
-2018/02/22 23:20(JST)更新<br>
+2018/03/02 17:35(JST)更新<br>
 molecularShell･VitaShell v1.81対応<br>
-molecularShell･VitaShellの場合は、.txtファイルを、ux0:/VitaShell/language/ の中に入れる<br>
-誤字・脱字・誤変換・不具合報告は、作者連絡先へ<br>
+molecularShell･VitaShellの場合は、.txtファイルを、ux0:/VitaShell/language/ の中に導入<br>
+作者がVita内での確認作業が出来なくなった為Alpha版で更新しております<br>
+翻訳忘れ・誤字・脱字・誤変換・不具合等の報告は、作者連絡先へ御願い致します<br>
 作者連絡先: https://twitter.com/Umineko19930417<br>
 日本語化ファイル置き場: https://github.com/Umineko1993/japanese-vitashell/releases/<br>
 日本語化ファイル置き場ミラー: https://bitbucket.org/umineko19930417/japanese-vitashell/downloads/<br>
