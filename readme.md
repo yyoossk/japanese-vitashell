@@ -1,6 +1,6 @@
 # VitaShell日本語言語ファイル
-2018/03/02 17:35(JST)更新<br>
-molecularShell･VitaShell v1.81対応<br>
+2018/03/12 13:52(JST)更新<br>
+molecularShell･VitaShell v1.82対応<br>
 molecularShell･VitaShellの場合は、.txtファイルを、ux0:/VitaShell/language/ の中に導入<br>
 作者がVita内での確認作業が出来なくなった為Alpha版で更新しております<br>
 翻訳忘れ・誤字・脱字・誤変換・不具合等の報告は、作者連絡先へ御願い致します<br>
