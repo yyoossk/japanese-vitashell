@@ -1,6 +1,6 @@
-# VitaShell language file for VitaShell ver 1.82
-# VitaShell 1.82対応版日本語言語ファイル 182a167
-# 2018/03/12 19:42(JST)更新
+# VitaShell language file for VitaShell ver 1.83
+# VitaShell 1.83対応版日本語言語ファイル 183a168
+# 2018/03/15 05:49(JST)更新
 # 翻訳者 @Umineko19930417
 
 # General strings
