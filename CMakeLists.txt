@@ -13,8 +13,8 @@ endif()
 project(VitaShell_JP)
 include("${VITASDK}/share/vita.cmake" REQUIRED)
 set(VITA_APP_NAME "VitaShell_JP")
-set(VITA_TITLEID  "VITASHELL_JP")
-set(VITA_VERSION  "01.83.JP")
+set(VITA_TITLEID  "VSJP00001")
+set(VITA_VERSION  "01.83")
 
 # Flags and includes
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -O3 -Wno-unused-variable -Wno-unused-but-set-variable -Wno-format-truncation -fno-lto")
