@@ -10,7 +10,7 @@ if( NOT DEFINED CMAKE_TOOLCHAIN_FILE )
 endif()
 
 # Project start
-project(VitaShell_JP)
+project(VitaShell)
 include("${VITASDK}/share/vita.cmake" REQUIRED)
 set(VITA_APP_NAME "VitaShell_JP")
 set(VITA_TITLEID  "VSJP00001")
