@@ -86,7 +86,7 @@ INCLUDE_EXTERN_RESOURCE(patch_skprx);
 #define DEFAULT_FILE(path, name, replace) { path, (void *)&_binary_resources_##name##_start, (int)&_binary_resources_##name##_size, replace }
 
 static DefaultFile default_files[] = {
-  DEFAULT_FILE("ux0:VitaShell_JP_JP/language/japanese.txt", japanese_txt, 0),
+  DEFAULT_FILE("ux0:VitaShell_JP/language/japanese.txt", japanese_txt, 0),
 
   DEFAULT_FILE("ux0:VitaShell_JP/theme/theme.txt", theme_txt, 0),
 
