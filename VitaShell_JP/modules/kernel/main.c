@@ -1,4 +1,4 @@
-/*
+﻿/*
   VitaShell
   Copyright (C) 2015-2018, TheFloW
 
