@@ -26,7 +26,7 @@
 
 #include "audio/vita_audio.h"
 
-INCLUDE_EXTERN_RESOURCE(english_us_txt);
+INCLUDE_EXTERN_RESOURCE(japanese_txt);
 
 INCLUDE_EXTERN_RESOURCE(theme_txt);
 
