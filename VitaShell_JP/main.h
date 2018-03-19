@@ -59,7 +59,7 @@
 
 #define VITASHELL_LASTDIR "ux0:VitaShell_JP/internal/lastdir.txt"
 
-#define VITASHELL_TITLEID "VITASHELL"
+#define VITASHELL_TITLEID "VSJP00001"
 
 #define ALIGN(x, align) (((x) + ((align) - 1)) & ~((align) - 1))
 

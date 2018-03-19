@@ -366,7 +366,7 @@ void drawShellInfo(const char *path) {
   if (version[3] == '0')
     version[3] = '\0';
 
-  pgf_draw_textf(SHELL_MARGIN_X, SHELL_MARGIN_Y, TITLE_COLOR, "VitaShell %s", version);
+  pgf_draw_textf(SHELL_MARGIN_X, SHELL_MARGIN_Y, TITLE_COLOR, "VitaShell_JP %s", version);
 
   // Status bar
   float x = SCREEN_WIDTH - SHELL_MARGIN_X;
@@ -1155,7 +1155,7 @@ static int dialogSteps() {
     
     case DIALOG_STEP_EXTRACTED:
     {
-			removePath("ux0:patch/VITASHELL", NULL);
+			removePath("ux0:patch/VITASHELL_JP", NULL);
       launchAppByUriExit("VSUPDATER");
       setDialogStep(DIALOG_STEP_NONE);
       break;

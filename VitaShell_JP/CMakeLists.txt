@@ -10,7 +10,7 @@ if( NOT DEFINED CMAKE_TOOLCHAIN_FILE )
 endif()
 
 # Project start
-project(VitaShell)
+project(VitaShell_JP)
 include("${VITASDK}/share/vita.cmake" REQUIRED)
 set(VITA_APP_NAME "VitaShell_JP")
 set(VITA_TITLEID  "VSJP00001")
@@ -60,10 +60,10 @@ file(GLOB res_files RELATIVE
   resources/*.suprx
   resources/*.skprx
 )
-add_resources(vitashell_res ${res_files})
+add_resources(vitashell_jp_res ${res_files})
 
-add_executable(VitaShell
-  ${vitashell_res}
+add_executable(VitaShell_JP
+  ${vitashell_jp_res}
   main.c
   main_context.c
   init.c
@@ -123,7 +123,7 @@ add_executable(VitaShell
   libmad/timer.c
 )
 
-target_link_libraries(VitaShell
+target_link_libraries(VitaShell_JP
   ftpvita
   vita2d
   vorbisfile
@@ -179,8 +179,8 @@ target_link_libraries(VitaShell
 )
 
 # Create Vita artifacts
-vita_create_self(eboot.bin VitaShell UNSAFE)
-vita_create_vpk(VitaShell.vpk ${VITA_TITLEID} eboot.bin
+vita_create_self(eboot.bin VitaShell_JP UNSAFE)
+vita_create_vpk(VitaShell_JP.vpk ${VITA_TITLEID} eboot.bin
   VERSION ${VITA_VERSION}
   NAME ${VITA_APP_NAME}
   FILE pkg/sce_sys/icon0.png sce_sys/icon0.png
