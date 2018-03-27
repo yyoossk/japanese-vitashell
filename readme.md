@@ -1,6 +1,6 @@
 # VitaShell日本語言語ファイル
 2018/03/28 03:40(JST)更新<br>
-molecularShell･VitaShell v1.90対応<br>
+molecularShell･VitaShell v1.9対応<br>
 molecularShell･VitaShellの場合は、.txtファイルを、ux0:/VitaShell/language/ の中に導入<br>
 デフォルト言語が日本語のVitaShell_JPは https://github.com/Umineko1993/VitaShell/releases/ へ<br>
 (※VitaShell_JPの説明は向こうにありますのでお読み下さい)<br>
