@@ -1,6 +1,6 @@
-# VitaShell language file for ver 1.9
-# VitaShell 1.9対応版日本語言語ファイル 19a170
-# 2018/03/28 03:32(JST)更新
+# VitaShell language file for ver 1.93
+# VitaShell 1.93対応版日本語言語ファイル 193a171
+# 2018/06/20 01:55(JST)更新
 # 翻訳者 @Umineko19930417
 
 # General strings
@@ -56,10 +56,12 @@ REFRESH_LIVEAREA			= "ライブエリアを再構築"
 REFRESH_LICENSE_DB			= "ライセンスデーターベースを再構築"
 # CREDIT				= "クレジット"
 # CID					= "CIDを保存"
-MOUNT_UMA0				= "uma0に接続"
-MOUNT_IMC0				= "imc0に接続"
-MOUNT_USB_UX0				= "USBのux0に接続"
-UMOUNT_USB_UX0				= "USBのux0から切断"
+MOUNT_UMA0				= "uma0:に接続"
+MOUNT_IMC0				= "imc0:に接続"
+MOUNT_USB_UX0				= "USBをx0:に接続"
+UMOUNT_USB_UX0				= "USBをux0:から切断"
+MOUNT_GAMECARD_UX0 			= "ゲームカードをux0:に接続"
+UMOUNT_GAMECARD_UX0			= "ゲームカードをux0:から切断"
 SORT_BY					= "並び替え"
 BY_NAME					= "名前で"
 BY_SIZE					= "サイズで"
@@ -71,7 +73,9 @@ COPY					= "コピー"
 PASTE					= "貼り付け"
 DELETE					= "削除"
 RENAME					= "名前変更"
-NEW_FOLDER				= "新しいフォルダ"
+NEW_FOLDER				= "新規フォルダ"
+NEW			= "新規"
+NEW_FILE			= "新規ファイル"
 PROPERTIES				= "プロパティ"
 SEND					= "送信"
 RECEIVE					= "受信"
@@ -229,14 +233,15 @@ VITASHELL_SETTINGS_SELECT_BUTTON_FTP	= "FTPモード"
 # USB strings
 # USBの文字列
 USB_CONNECTED				= "USBを接続しました"
-USB_UMA0_MOUNTED			= "uma0に接続しました"
-USB_UX0_MOUNTED				= "USBのux0に接続しました"
-USB_UX0_UMOUNTED			= "USBのux0から切断しました"
+USB_UMA0_MOUNTED			= "uma0:に接続しました"
+USB_UX0_MOUNTED				= "USBをux0:に接続しました"
+USB_UX0_UMOUNTED			= "USBをux0:から切断しました"
+GAMECARD_UX0_MOUNTED			= "ゲームカードはux0:に接続しました"
+GAMECARD_UX0_uMOUNTED                = "ゲームカードはux0:から切断しました"
 USB_NOT_CONNECTED			= "この機能はUSBケーブルを使用してPCと接続します"
 #USB_CONNECTION_PERMISSION		= "USBの接続には、拡張アクセス権限が必要です\安全ではない自作アプリを有効にして下さい"
 USB_CONNECTION_NOT_AVAILABLE		= "このデバイスでは、USBの接続を利用出来ません"
 USB_WAIT_ATTACH				= "続行するには、USBフラッシュドライブを接続して下さい\既にに取り付けられている場合は、取り外して取り付け直して下さい"
-
 
 # QR strings
 # QRの文字列
@@ -255,7 +260,7 @@ ADHOC_RECEIVE_QUESTION			= "%sからの受信を受け取りますか?"
 
 # Others
 # その他
-IMC0_MOUNTED				= "imc0に接続しました"
+IMC0_MOUNTED				= "imc0:に接続しました"
 SAFE_MODE				= "安全なモード"
 UNSAFE_MODE				= "安全ではないモード"
 PLEASE_WAIT				= "しばらくお待ち下さい"
