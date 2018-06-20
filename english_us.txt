@@ -1,5 +1,5 @@
-# VitaShell language file VitaShell v.1.93
-# Update 2018/06/20 01:33(JST)
+# VitaShell language file
+# Update 2018/06/20 15:30(JST)
 
 # General strings
 ERROR                                = "Error 0x%08X."
@@ -47,6 +47,7 @@ REFRESH_LIVEAREA                     = "Refresh LiveArea™"
 REFRESH_LICENSE_DB                   = "Refresh license database"
 MOUNT_UMA0                           = "Mount uma0:"
 MOUNT_IMC0                           = "Mount imc0:"
+MOUNT_XMC0                           = "Mount xmc0:"
 MOUNT_USB_UX0                        = "Mount USB ux0:"
 UMOUNT_USB_UX0                       = "Umount USB ux0:"
 MOUNT_GAMECARD_UX0                   = "Mount gamecard ux0:"
@@ -194,6 +195,7 @@ ADHOC_CLIENT_DECLINED                = "The client has declined your request."
 
 # Others
 IMC0_MOUNTED                         = "imc0: mounted."
+XMC0_MOUNTED                         = "xmc0: mounted."
 SAFE_MODE                            = "SAFE MODE"
 UNSAFE_MODE                          = "UNSAFE MODE"
 PLEASE_WAIT                          = "Please wait..."
