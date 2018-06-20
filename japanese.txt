@@ -1,6 +1,6 @@
 # VitaShell language file for ver 1.93
-# VitaShell 1.93対応版日本語言語ファイル 193a171
-# 2018/06/20 01:55(JST)更新
+# VitaShell 1.93対応版日本語言語ファイル 193a172
+# 2018/06/20 15:42(JST)更新
 # 翻訳者 @Umineko19930417
 
 # General strings
@@ -58,6 +58,7 @@ REFRESH_LICENSE_DB			= "ライセンスデーターベースを再構築"
 # CID					= "CIDを保存"
 MOUNT_UMA0				= "uma0:に接続"
 MOUNT_IMC0				= "imc0:に接続"
++MOUNT_XMC0				= "xmc0:に接続"
 MOUNT_USB_UX0				= "USBをx0:に接続"
 UMOUNT_USB_UX0				= "USBをux0:から切断"
 MOUNT_GAMECARD_UX0 			= "ゲームカードをux0:に接続"
@@ -74,8 +75,8 @@ PASTE					= "貼り付け"
 DELETE					= "削除"
 RENAME					= "名前変更"
 NEW_FOLDER				= "新規フォルダ"
-NEW			= "新規"
-NEW_FILE			= "新規ファイル"
+NEW					= "新規"
+NEW_FILE				= "新規ファイル"
 PROPERTIES				= "プロパティ"
 SEND					= "送信"
 RECEIVE					= "受信"
@@ -237,7 +238,7 @@ USB_UMA0_MOUNTED			= "uma0:に接続しました"
 USB_UX0_MOUNTED				= "USBをux0:に接続しました"
 USB_UX0_UMOUNTED			= "USBをux0:から切断しました"
 GAMECARD_UX0_MOUNTED			= "ゲームカードはux0:に接続しました"
-GAMECARD_UX0_uMOUNTED                = "ゲームカードはux0:から切断しました"
+GAMECARD_UX0_uMOUNTED			= "ゲームカードはux0:から切断しました"
 USB_NOT_CONNECTED			= "この機能はUSBケーブルを使用してPCと接続します"
 #USB_CONNECTION_PERMISSION		= "USBの接続には、拡張アクセス権限が必要です\安全ではない自作アプリを有効にして下さい"
 USB_CONNECTION_NOT_AVAILABLE		= "このデバイスでは、USBの接続を利用出来ません"
@@ -261,6 +262,7 @@ ADHOC_RECEIVE_QUESTION			= "%sからの受信を受け取りますか?"
 # Others
 # その他
 IMC0_MOUNTED				= "imc0:に接続しました"
+XMC0_MOUNTED				= "xmc0:に接続しました"
 SAFE_MODE				= "安全なモード"
 UNSAFE_MODE				= "安全ではないモード"
 PLEASE_WAIT				= "しばらくお待ち下さい"
