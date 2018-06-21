@@ -1,6 +1,6 @@
-# VitaShell language file for ver 1.93
-# VitaShell 1.93対応版日本語言語ファイル 193a172
-# 2018/06/20 15:42(JST)更新
+# VitaShell language file for VitaShell Version 1.94
+# VitaShell 1.94対応版日本語言語ファイル 194a173
+# 2018/06/21 21:37(JST)更新
 # 翻訳者 @Umineko19930417
 
 # General strings
@@ -58,7 +58,10 @@ REFRESH_LICENSE_DB			= "ライセンスデーターベースを再構築"
 # CID					= "CIDを保存"
 MOUNT_UMA0				= "uma0:に接続"
 MOUNT_IMC0				= "imc0:に接続"
-+MOUNT_XMC0				= "xmc0:に接続"
+MOUNT_XMC0				= "xmc0:に接続"
+UMOUNT_UMA0				= "uma0:を切断"
+UMOUNT_IMC0				= "imc0:を切断"
+UMOUNT_XMC0				= "xmc0:を切断"
 MOUNT_USB_UX0				= "USBをx0:に接続"
 UMOUNT_USB_UX0				= "USBをux0:から切断"
 MOUNT_GAMECARD_UX0 			= "ゲームカードをux0:に接続"
@@ -234,11 +237,10 @@ VITASHELL_SETTINGS_SELECT_BUTTON_FTP	= "FTPモード"
 # USB strings
 # USBの文字列
 USB_CONNECTED				= "USBを接続しました"
-USB_UMA0_MOUNTED			= "uma0:に接続しました"
 USB_UX0_MOUNTED				= "USBをux0:に接続しました"
 USB_UX0_UMOUNTED			= "USBをux0:から切断しました"
-GAMECARD_UX0_MOUNTED			= "ゲームカードはux0:に接続しました"
-GAMECARD_UX0_uMOUNTED			= "ゲームカードはux0:から切断しました"
+GAMECARD_UX0_MOUNTED			= "ゲームカードをux0:に接続しました"
+GAMECARD_UX0_uMOUNTED			= "ゲームカードをux0:から切断しました"
 USB_NOT_CONNECTED			= "この機能はUSBケーブルを使用してPCと接続します"
 #USB_CONNECTION_PERMISSION		= "USBの接続には、拡張アクセス権限が必要です\安全ではない自作アプリを有効にして下さい"
 USB_CONNECTION_NOT_AVAILABLE		= "このデバイスでは、USBの接続を利用出来ません"
@@ -261,8 +263,12 @@ ADHOC_RECEIVE_QUESTION			= "%sからの受信を受け取りますか?"
 
 # Others
 # その他
+UMA0_MOUNTED				= "uma0:に接続しました"
+UMA0_UMOUNTED				= "uma0:を切断しました"
 IMC0_MOUNTED				= "imc0:に接続しました"
+IMC0_UMOUNTED				= "imc0:を切断しました"
 XMC0_MOUNTED				= "xmc0:に接続しました"
+XMC0_UMOUNTED				= "xmc0:を切断しました"
 SAFE_MODE				= "安全なモード"
 UNSAFE_MODE				= "安全ではないモード"
 PLEASE_WAIT				= "しばらくお待ち下さい"
