@@ -1,6 +1,6 @@
 /*
   Adrenaline
-  Copyright (C) 2016-2017, TheFloW
+  Copyright (C) 2016-2018, TheFloW
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -15,8 +15,8 @@
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
   
-  6.61 Adrenaline-6.2 対応 日本語言語ファイル
-  2018/04/25 16:06(JST)更新
+  6.61 Adrenaline-6.5 対応 日本語言語ファイル
+  2018/07/10 22:15(JST)更新
   翻訳者 @Umineko19930417
   
 */
@@ -88,7 +88,8 @@ static char *graphics_options[] = { "オリジナル", "バイリニア", "シ�
 static char *flux_mode_options[] = { "なし", "黄色", "青", "黒" };
 static char *no_yes_options[] = { "No", "Yes" };
 static char *yes_no_options[] = { "Yes", "No" };
-static char *ms_location_options[] = { "ux0:pspemu", "ur0:pspemu", "imc0:pspemu", "uma0:pspemu" };
+static char *ms_location_options[] = { "ux0:pspemu", "ur0:pspemu", "imc0:pspemu", "xmc0:pspemu", "uma0:pspemu" };
+static char *usbdevice_options[] = { "メモリーカード", "内部記憶装置", "sd2vita", "psvsd" };
 
 static MenuEntry main_entries[] = {
   { "スタンバイモードに移行",        MENU_ENTRY_TYPE_CALLBACK, 0, EnterStandbyMode, NULL, NULL, 0 },
@@ -101,11 +102,12 @@ static MenuEntry settings_entries[] = {
   { "グラフィックフィルタリング",        MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.graphics_filtering, graphics_options, sizeof(graphics_options) / sizeof(char **) },
   { "滑らかなグラフィック",           MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.no_smooth_graphics, yes_no_options, sizeof(yes_no_options) / sizeof(char **) },
   { "f.luxのフィルター色",        MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.flux_mode, flux_mode_options, sizeof(flux_mode_options) / sizeof(char **) },
-  { "PSPのX軸の画面のスケール",      MENU_ENTRY_TYPE_SCALE,  0, NULL, &config.psp_screen_scale_x, NULL, 0 },
-  { "PSPのY軸の画面のスケール",      MENU_ENTRY_TYPE_SCALE,  0, NULL, &config.psp_screen_scale_y, NULL, 0 },
-  { "PS1のX軸の画面のスケール",      MENU_ENTRY_TYPE_SCALE,  0, NULL, &config.ps1_screen_scale_x, NULL, 0 },
-  { "PS1のY軸の画面のスケール",      MENU_ENTRY_TYPE_SCALE,  0, NULL, &config.ps1_screen_scale_y, NULL, 0 },
+  { "PSPのX軸の画面のスケール",      MENU_ENTRY_TYPE_SCALE,  0, NULL, (int *)&config.psp_screen_scale_x, NULL, 0 },
+  { "PSPのY軸の画面のスケール",      MENU_ENTRY_TYPE_SCALE,  0, NULL, (int *)&config.psp_screen_scale_y, NULL, 0 },
+  { "PS1のX軸の画面のスケール",      MENU_ENTRY_TYPE_SCALE,  0, NULL, (int *)&config.ps1_screen_scale_x, NULL, 0 },
+  { "PS1のY軸の画面のスケール",      MENU_ENTRY_TYPE_SCALE,  0, NULL, (int *)&config.ps1_screen_scale_y, NULL, 0 },
   { "メモリーカードの場所",     MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.ms_location, ms_location_options, sizeof(ms_location_options) / sizeof(char **) },
+  { "USBデバイス",                MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.usbdevice, usbdevice_options, sizeof(usbdevice_options) / sizeof(char **) },
   { "DualShock 3/4コントローラーの使用",    MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.use_ds3_ds4, no_yes_options, sizeof(no_yes_options) / sizeof(char **) },
   { "Adrenaline起動ロゴのスキップ", MENU_ENTRY_TYPE_OPTION, 0, NULL, &config.skip_logo, no_yes_options, sizeof(no_yes_options) / sizeof(char **) },
   { "Adrenalineの設定の初期化", MENU_ENTRY_TYPE_CALLBACK, 0, ResetAdrenalineSettings, NULL, NULL, 0 },
@@ -175,7 +177,7 @@ static int EnterAdrenalineMenu() {
   menu_open = 1;
   open_official_settings = 0;
 
-  SceAdrenaline *adrenaline = (SceAdrenaline *)ScePspemuConvertAddress(ADRENALINE_ADDRESS, 1, ADRENALINE_SIZE);
+  SceAdrenaline *adrenaline = (SceAdrenaline *)ScePspemuConvertAddress(ADRENALINE_ADDRESS, KERMIT_INPUT_MODE, ADRENALINE_SIZE);
   if (adrenaline->pops_mode)
     ScePspemuPausePops(1);
 
@@ -189,7 +191,7 @@ int ExitAdrenalineMenu() {
     WriteFile("ux0:app/" ADRENALINE_TITLEID "/adrenaline.bin", &config, sizeof(AdrenalineConfig));
   }
 
-  SceAdrenaline *adrenaline = (SceAdrenaline *)ScePspemuConvertAddress(ADRENALINE_ADDRESS, 1, ADRENALINE_SIZE);
+  SceAdrenaline *adrenaline = (SceAdrenaline *)ScePspemuConvertAddress(ADRENALINE_ADDRESS, KERMIT_INPUT_MODE, ADRENALINE_SIZE);
   if (adrenaline->pops_mode)
     ScePspemuPausePops(0);
 
@@ -217,6 +219,8 @@ int ResetAdrenalineSettings() {
   config.ps1_screen_scale_x = 1.0f;
   config.ps1_screen_scale_y = 1.0f;
   WriteFile("ux0:app/" ADRENALINE_TITLEID "/adrenaline.bin", &config, sizeof(AdrenalineConfig));
+
+  return 0;
 }
 
 void drawMenu() {
@@ -456,7 +460,7 @@ int AdrenalineDraw(SceSize args, void *argp) {
 
   vita2d_shader *shader = opaque_shader;
 
-  settings_semaid = sceKernelCreateSema("Adrenaline設定信号", 0, 0, 1, NULL);
+  settings_semaid = sceKernelCreateSema("AdrenalineSettingsSemaphore", 0, 0, 1, NULL);
   if (settings_semaid < 0)
     return settings_semaid;
 
@@ -466,7 +470,7 @@ int AdrenalineDraw(SceSize args, void *argp) {
   float fps = 0.0f;
 
   while (1) {
-    SceAdrenaline *adrenaline = (SceAdrenaline *)ScePspemuConvertAddress(ADRENALINE_ADDRESS, 1, ADRENALINE_SIZE);
+    SceAdrenaline *adrenaline = (SceAdrenaline *)CONVERT_ADDRESS(ADRENALINE_ADDRESS);
 
     // Draw savestate screen
     if (adrenaline->savestate_mode != SAVESTATE_MODE_NONE) {
@@ -514,7 +518,7 @@ int AdrenalineDraw(SceSize args, void *argp) {
       }
 
       if (combo_state == 2) {
-        uint8_t *val = (uint8_t *)ScePspemuConvertAddress(0xABCD00A9, 0, 1);
+        uint8_t *val = (uint8_t *)ScePspemuConvertAddress(0xABCD00A9, KERMIT_OUTPUT_MODE, 1);
         *val = !(*val);
         ScePspemuWritebackCache(val, 1);
         combo_state = 0;
