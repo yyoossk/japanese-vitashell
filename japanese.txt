@@ -1,6 +1,6 @@
-# VitaShell language file for VitaShell Version 1.94
-# VitaShell 1.94対応版日本語言語ファイル 194a173
-# 2018/06/21 21:37(JST)更新
+# VitaShell language file for VitaShell Version 1.95
+# VitaShell 1.95対応版日本語言語ファイル 195a174
+# 2018/08/29 05:23(JST)更新
 # 翻訳者 @Umineko19930417
 
 # General strings
@@ -178,6 +178,7 @@ VITASHELL_SETTINGS_THEME		= "テーマ"
 VITASHELL_SETTINGS_USBDEVICE		= "USBデバイス"
 VITASHELL_SETTINGS_SELECT_BUTTON	= "接続モードの選択"
 VITASHELL_SETTINGS_NO_AUTO_UPDATE	= "自動的な更新を無効"
+VITASHELL_SETTINGS_WARNING_MESSAGE	= "警告メッセージを無効"
 VITASHELL_SETTINGS_RESTART_SHELL	= "VitaShellを再起動"
 VITASHELL_SETTINGS_POWER		= "電源"
 VITASHELL_SETTINGS_REBOOT		= "再起動"
