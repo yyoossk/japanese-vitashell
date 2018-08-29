@@ -1,6 +1,6 @@
 # VitaShell language file for VitaShell Version 1.95
-# VitaShell 1.95対応版日本語言語ファイル 195a174
-# 2018/08/29 05:23(JST)更新
+# VitaShell 1.95対応版日本語言語ファイル 195b174
+# 2018/08/29 21:15(JST)更新
 # 翻訳者 @Umineko19930417
 
 # General strings
