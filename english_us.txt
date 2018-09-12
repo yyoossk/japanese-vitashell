@@ -1,5 +1,5 @@
-# VitaShell language file for VitaShell Version 1.95
-#Update 2018/08/29 05:13 (JST)
+# VitaShell language file for VitaShell Version 1.96
+#Update 2018/09/13 07:37 (JST)
 
 # General strings
 ERROR                                = "Error 0x%08X."
