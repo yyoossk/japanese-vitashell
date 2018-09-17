@@ -1,6 +1,6 @@
-# VitaShell language file for VitaShell Version 1.96
-# VitaShell 1.96対応版日本語言語ファイル 196a176
-# 2018/09/13 09:25(JST)更新
+# VitaShell language file for VitaShell Version 1.97
+# VitaShell 1.97対応版日本語言語ファイル 197a177
+# 2018/09/18 01:36(JST)更新
 # 翻訳者 @Umineko19930417
 
 # General strings
@@ -93,6 +93,12 @@ EXPORT_MEDIA				= "メディアを出力"
 CUT					= "切り取り"
 INSERT_EMPTY_LINE			= "空の行を挿入"
 SEARCH					= "検索"
+BOOKMARKS			= "ブックマーク"
+ADHOC_TRANSFER			= "アドホック"
+BOOKMARKS_SHOW			= "ブックマークの確認"
+BOOKMARKS_NEW			= "新規ブックマーク"
+BOOKMARK_CREATED			= "ブックマークの追加"
+RECENT_FILES_SHOW			= "最近使用したファイル"
 
 # File browser properties strings
 # ファイルブラウザプロパティの文字列
