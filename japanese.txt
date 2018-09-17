@@ -1,6 +1,6 @@
 # VitaShell language file for VitaShell Version 1.97
-# VitaShell 1.97対応版日本語言語ファイル 197b178
-# 2018/09/18 01:48(JST)更新
+# VitaShell 1.97対応版日本語言語ファイル 197b179
+# 2018/09/18 01:51(JST)更新
 # 翻訳者 @Umineko19930417
 
 # General strings
@@ -97,7 +97,7 @@ BOOKMARKS				= "ブックマーク"
 ADHOC_TRANSFER				= "アドホック"
 BOOKMARKS_SHOW				= "ブックマークの確認"
 BOOKMARKS_NEW				= "新規ブックマーク"
-BOOKMARK_CREATED				= "ブックマークを追加しました"
+BOOKMARK_CREATED			= "ブックマークを追加しました"
 RECENT_FILES_SHOW			= "最近使用したファイル"
 
 # File browser properties strings
