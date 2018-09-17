@@ -1,5 +1,5 @@
-# VitaShell language file for VitaShell Version 1.96
-#Update 2018/09/13 07:37 (JST)
+# VitaShell language file for VitaShell Version 1.97
+#Update 2018/09/18 01:26 (JST)
 
 # General strings
 ERROR                                = "Error 0x%08X."
@@ -82,6 +82,12 @@ EXPORT_MEDIA                         = "Export media"
 CUT                                  = "Cut"
 INSERT_EMPTY_LINE                    = "Insert empty line"
 SEARCH                               = "Search"
+BOOKMARKS                            = "Bookmarks"
+ADHOC_TRANSFER                       = "Ad-hoc"
+BOOKMARKS_SHOW                       = "Show bookmarks"
+BOOKMARKS_NEW                        = "New bookmark"
+BOOKMARK_CREATED                     = "Bookmark added."
+RECENT_FILES_SHOW                    = "Recent files"
 
 # File browser properties strings
 PROPERTY_NAME                        = "Name"
