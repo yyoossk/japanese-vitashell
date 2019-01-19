@@ -1,4 +1,4 @@
-# VitaShell language file for VitaShell Version 1.98
+# VitaShell language file for VitaShell Version 1.98 
 
 # General strings
 ERROR                                = "Error 0x%08X."
