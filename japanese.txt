@@ -1,9 +1,5 @@
-# VitaShell language file for VitaShell Version 1.97
-# VitaShell 1.97対応版日本語言語ファイル 197b179
-# 2018/09/18 01:51(JST)更新
-# 翻訳者 @Umineko19930417
+# VitaShell 2.00対応版日本語言語ファイル 200a180
 
-# General strings
 # 一般的な文字列
 ERROR					= "エラーコード:0x%08X"
 OK					= "OK"
@@ -15,7 +11,6 @@ OFF					= "オフ"
 FILE_					= "ファイル"
 FOLDER					= "フォルダ"
 
-# Progress strings
 # 進捗の文字列
 MOVING					= "移動中"
 COPYING				= "コピー中"
@@ -31,8 +26,6 @@ REFRESHING				= "再構築中"
 SENDING				= "送信中"
 RECEIVING				= "受信中"
 
-
-# Audio player strings
 # オーディオプレイヤーの文字列
 TITLE					= "タイトル"
 ALBUM					= "アルバム"
@@ -40,22 +33,17 @@ ARTIST					= "アーティスト"
 GENRE					= "ジャンル"
 YEAR					= "年"
 
-# Hex editor strings
 # バイナリエディタの文字列
 OFFSET					= "オフセット"
 OPEN_HEX_EDITOR			= "バイナリエディタを開く"
 
-# Text editor strings
 # テキストエディタの文字列
 EDIT_LINE				= "行の編集"
 ENTER_SEARCH_TERM			= "検索用語を入力"
 
-# Context menu strings
 # コンテキストメニューの文字列
 REFRESH_LIVEAREA			= "ライブエリアを再構築"
 REFRESH_LICENSE_DB			= "ライセンスデーターベースを再構築"
-# CREDIT				= "クレジット"
-# CID					= "CIDを保存"
 MOUNT_UMA0				= "uma0:に接続"
 MOUNT_IMC0				= "imc0:に接続"
 MOUNT_XMC0				= "xmc0:に接続"
@@ -100,7 +88,6 @@ BOOKMARKS_NEW				= "新規ブックマーク"
 BOOKMARK_CREATED			= "ブックマークを追加しました"
 RECENT_FILES_SHOW			= "最近使用したファイル"
 
-# File browser properties strings
 # ファイルブラウザプロパティの文字列
 PROPERTY_NAME				= "名前"
 PROPERTY_TYPE				= "種類"
@@ -118,18 +105,15 @@ PROPERTY_TYPE_JPEG			= "JPEG画像"
 PROPERTY_TYPE_MP3			= "MP3音声ファイル"
 PROPERTY_TYPE_OGG			= "OGG音声ファイル"
 PROPERTY_TYPE_PNG			= "PNG画像"
-# PROPERTY_TYPE_RAR			= "RAR圧縮ファイル"
 PROPERTY_TYPE_SFO			= "SFOファイル"
 PROPERTY_TYPE_TXT			= "テキスト文章"
 PROPERTY_TYPE_VPK			= "VPKパッケージ"
 PROPERTY_TYPE_XML			= "XMLファイル"
-# PROPERTY_TYPE_ZIP			= "ZIP圧縮ファイル"
 PROPERTY_TYPE_FSELF			= "FSELFファイル"
 PROPERTY_FSELF_MODE_SAFE		= "安全"
 PROPERTY_FSELF_MODE_UNSAFE		= "安全ではない"
 PROPERTY_FSELF_MODE_SCE		= "SCEの署名済"
 
-# File browser strings
 # ファイルブラウザーの文字列
 REFRESHED				= "%d個のアイテムをリフレッシュしました"
 COPIED_FILE				= "%d個のファイルをコピーしました"
@@ -137,7 +121,6 @@ COPIED_FOLDER				= "%d個のフォルダをコピーしました"
 COPIED_FILES_FOLDERS			= "%d個のファイル/フォルダをコピーしました"
 IMPORTED_LICENSES			= "%d個のライセンスをインポートしました"
 
-# Dialog questions
 # ダイアログの質問
 DELETE_FILE_QUESTION			= "このファイルを削除してもよろしいですか?"
 DELETE_FOLDER_QUESTION			= "このフォルダを削除してもよろしいですか?"
@@ -163,7 +146,6 @@ SAVE_MODIFICATIONS			= "変更を保存しますか?"
 REFRESH_LIVEAREA_QUESTION		= "ライブエリアの再構築には時間がかかる場合があります\\続行しますか?"
 REFRESH_LICENSE_DB_QUESTION		= "ライセンスデータベースの再構築に時間がかかる場合があります\\続行しますか?"
 
-# HENkaku settings strings
 # 変革設定の文字列
 HENKAKU_SETTINGS			= "HENkakuの設定"
 HENKAKU_ENABLE_PSN_SPOOFING		= "PSNの偽装を有効"
@@ -176,7 +158,6 @@ HENKAKU_RESTORE_DEFAULT_MESSAGE	= "デフォルトの設定が正常に復元さ
 HENKAKU_RELOAD_CONFIG_MESSAGE		= "taiHENのconfig.txtが正常に再読込されました"
 HENKAKU_UNSAFE_HOMEBREW_MESSAGE	= "悪意が含まれていたり誤って作成されていた場合、\危険な自作アプリはデバイスを破壊する事が出来ます\\インストールをする時は注意して下さい"
 
-# VitaShell settings
 # Vitashellの設定
 VITASHELL_SETTINGS_MAIN		= "メインの設定"
 VITASHELL_SETTINGS_LANGUAGE		= "言語"
@@ -196,52 +177,7 @@ VITASHELL_SETTINGS_USB_SD2VITA		= "sd2vita"
 VITASHELL_SETTINGS_USB_PSVSD		= "psvsd"
 VITASHELL_SETTINGS_SELECT_BUTTON_USB	= "USBモード"
 VITASHELL_SETTINGS_SELECT_BUTTON_FTP	= "FTPモード"
-# VITASHELL_SETTINGS_DATABASE		= "データベースメニュー"
-# VITASHELL_SETTINGS_DATABASE_UPDATE	= "データベースを更新"
-# VITASHELL_SETTINGS_DATABASE_REBUILD	= "データベースの再構築"
 
-# Language Settings
-# 言語の設定
-# english_us				= "英語(米)"
-# japanese				= "日本語"
-# french				= "フランス語"
-# spanish				= "スペイン語"
-# german				= "ドイツ語"
-# italian				= "イタリア語"
-# dutch				= "オランダ語"
-# portuguese				= "ポルトガル語"
-# russian				= "ロシア語"
-# korean				= "韓国語"
-# chinese_t				= "中国語-繁体字"
-# chinese_s				= "中国語-簡体字"
-# finnish				= "フィンランド語"
-# swedish				= "スゥエーデン語"
-# danish				= "デンマーク語"
-# norwegian				= "ノルウェー語"
-# polish				= "ポーランド語"
-# portuguese_br			= "ポルトガル語(ブラジル)"
-# turkish				= "トルコ語"
-
-# ThemeManager
-# テーマーマネージャー
-# THEMEMANAGER_SELECT			= "選択"
-# THEMEMANAGER_CANCEL			= "キャンセル"
-
-# DataBase
-# データベース
-# DATABASEUPDATEQUESTION		= "データベースを更新しますか?"
-# DATABASEREBUILDQUESTION		= "データベースを再構築しますか?"
-# DATABASEUPDATECONFIRMQUESTION	= "データベースを更新する為に再起動しますか?"
-# DATABASEREBUILDCONFIRMQUESTION	= "データベースを再構築する為に再起動します\\警告\データベースの再構築を実施すると、アイコンのレイアウトを初期化します\よろしいですか?"
-
-# ForeCast
-# 予報
-# FORECAST_HUMID			= "湿度"
-# FORECAST_CLOUD			= "曇り"
-# FORECAST_ATMOS			= "気圧"
-# FORECAST_WIND			= "風"
-
-# USB strings
 # USBの文字列
 USB_CONNECTED				= "USBを接続しました"
 USB_UX0_MOUNTED			= "USBをux0:に接続しました"
@@ -253,7 +189,6 @@ USB_NOT_CONNECTED			= "この機能はUSBケーブルを使用してPCと接続�
 USB_CONNECTION_NOT_AVAILABLE		= "このデバイスでは、USBの接続を利用出来ません"
 USB_WAIT_ATTACH			= "続行するには、USBフラッシュドライブを接続して下さい\既にに取り付けられている場合は、取り外して取り付け直して下さい"
 
-# QR strings
 # QRの文字列
 QR_SCANNING				= "QRコードをスキャン中"
 QR_OPEN_WEBSITE			= "このURLを開きますか?\%s"
@@ -261,14 +196,12 @@ QR_SHOW_CONTENTS			= "QRコードの内容:\%s"
 QR_CONFIRM_INSTALL			= "下記のパッケージをインストールしますか?\%s\ファイル: %s\サイズ: %s""
 QR_CONFIRM_DOWNLOAD			= "下記のファイルをダウンロードしますか?\%s\ファイル: %s\サイズ: %s"
 
-# Adhoc strings
 # アドホックの文字列
 ADHOC_SEARCHING_PSVITA_SEND		= "PS Vitaを探しています\\しばらくお待ち下さい"
 ADHOC_SEARCHING_PSVITA_RECEIVE		= "PS Vitaからの受信を検索中です\\しばらくお待ち下さい"
 ADHOC_SELECT_PSVITA			= "PS Vitaを選択して下さい"
 ADHOC_RECEIVE_QUESTION			= "%sからの受信を受け取りますか?"
 
-# Others
 # その他
 UMA0_MOUNTED				= "uma0:に接続しました"
 UMA0_UMOUNTED				= "uma0:を切断しました"
@@ -286,11 +219,7 @@ NO_SPACE_ERROR				= "メモリーカードに充分な空き容量がありま�
 EXTENDED_PERMISSIONS_REQUIRED		= "この機能には、拡張アクセス許可が必要です\安全ではない自作アプリを有効にして下さい"
 WIFI_ERROR				= "Wi-Fiを有効にする必要があります"
 FTP_SERVER				= "FTPサーバーを動作させます\ftp://%s:%i\\OKを選択するとバックグラウンドで動作します\キャンセルを選択すると接続を解除します"
-#SYS_INFO				= "システムソフトウェア: %s\モデル: 0x%08X\MACアドレス: %s\IPアドレス: %s\メモリーカード: %s/%s\バッテリー容量: %d%%"
 UPDATE_QUESTION			= "VitaShell %sの更新が利用出来ます\\VitaShellの更新をしますか?"
-#TOOLBOX				= "ツールボックス"
-#SYSINFO_TITLE				= "システム情報"
 ARCHIVE_NAME				= "圧縮ファイル名"
 COMPRESSION_LEVEL			= "圧縮率(0-9)"
-# SAVECIDSUCCES			= "CIDの保存に成功しました"
 ENTER_PASSWORD				= "パスワードを入力"
