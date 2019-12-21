@@ -5,9 +5,12 @@ VitaShell Version2.00対応<br>
 VitaShell日本語化アプリの場合は、Vitaをネットワークに繋ぎ、アプリを実行<br>
 ※確認作業をして問題無かったら、Beta版で公開します<br>
 翻訳忘れ・誤字・脱字・誤変換・不具合等の報告は、作者連絡先へ御願い致します<br><br>
+詳細 → https://ameblo.jp/yusk5497hnd/entry-12436429345.html <br>
 <strong>パソコンを利用せずに、VitaShellを日本語化する、Princess of Sleeping( Princess of Sleeping )氏より、日本語化導入更新アプリが公開されております<br>
 詳細は下記サイトを確認して下さい<br>
 https://re-doing.com/archives/7042</strong><br><br>
+問い合わせは、https://mstdn.maud.io/web/accounts/182202 又は https://twitter.com/Umineko19930417 までお願いします<br>
+メインでTwitterで活動中の為、反応し易いのはTwitterとなります<br><br>
 デフォルト言語が日本語のVitaShell_JPは https://github.com/Umineko1993/VitaShell/releases/ へ<br>
 最新版はVersion1.94に対応してます<br>
 (※VitaShell_JPの説明は向こうにありますのでお読み下さい)<br>
