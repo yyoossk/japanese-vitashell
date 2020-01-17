@@ -1,4 +1,4 @@
-# VitaShell 2.00対応版日本語言語ファイル 200a180
+# VitaShell 2.01対応版日本語言語ファイル 201a181
 
 # 一般的な文字列
 ERROR					= "エラーコード:0x%08X"
@@ -81,12 +81,6 @@ EXPORT_MEDIA				= "メディアを出力"
 CUT					= "切り取り"
 INSERT_EMPTY_LINE			= "空の行を挿入"
 SEARCH					= "検索"
-BOOKMARKS				= "ブックマーク"
-ADHOC_TRANSFER				= "アドホック"
-BOOKMARKS_SHOW				= "ブックマークの確認"
-BOOKMARKS_NEW				= "新規ブックマーク"
-BOOKMARK_CREATED			= "ブックマークを追加しました"
-RECENT_FILES_SHOW			= "最近使用したファイル"
 
 # ファイルブラウザプロパティの文字列
 PROPERTY_NAME				= "名前"
@@ -165,7 +159,6 @@ VITASHELL_SETTINGS_THEME		= "テーマ"
 VITASHELL_SETTINGS_USBDEVICE		= "USBデバイス"
 VITASHELL_SETTINGS_SELECT_BUTTON	= "接続モードの選択"
 VITASHELL_SETTINGS_NO_AUTO_UPDATE	= "自動的な更新を無効"
-VITASHELL_SETTINGS_WARNING_MESSAGE	= "警告メッセージを無効"
 VITASHELL_SETTINGS_RESTART_SHELL	= "VitaShellを再起動"
 VITASHELL_SETTINGS_POWER		= "電源"
 VITASHELL_SETTINGS_REBOOT		= "再起動"
