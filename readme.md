@@ -1,6 +1,6 @@
 # VitaShell日本語言語ファイル
-2018/09/18 01:57(JST)更新<br>
-VitaShell Version2.00対応<br>
+2020/01/18 01:57(JST)更新<br>
+VitaShell Version2.01対応<br>
 手動の場合、japanese.txtファイルを、ux0:/VitaShell/language/ の中に導入<br>
 VitaShell日本語化アプリの場合は、Vitaをネットワークに繋ぎ、アプリを実行<br>
 ※確認作業をして問題無かったら、Beta版で公開します<br>
